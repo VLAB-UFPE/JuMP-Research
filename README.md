@@ -29,11 +29,9 @@ Com o max_edges em 25 e trim_percentage em 0.2.
 
 ## Adicionando e removendo atividades:
 Com o max_edges em 25 e fixando a atividade "Recurso", removendo a atividade "Expedição de documento" e fixando/removendo as atividades descritas.
-<div align="center">
-    <img src="./jump/jump-small-keep.svg" width="33%" height="400">
-    <img src="./jump/jump-small-remove.svg" width="33%" height="400">
-    <img src="./jump/jump-small-keep-remove.svg" width="33%" height="400">
-</div>
+![jump_dfg_keep](./jump/jump-small-keep.svg)
+![jump_dfg_remove](./jump/jump-small-remove.svg)
+![jump_dfg_keep_remove](./jump/jump-small-keep-remove.svg)
 
 ## Modificando o trim_percentage:
 Com o max_edges em 10 e trim_percentage em 0, 0.05, 0.1 e 0.5 respectivamente.
