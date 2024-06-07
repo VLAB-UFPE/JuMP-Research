@@ -38,31 +38,9 @@ def filtering_df(dataframe: pd.DataFrame, cases_amount: int=100,
     chosen_ids = random.choices(filtered_ids, k=cases_amount)
     return dataframe[dataframe['Case'].isin(chosen_ids)]
 
-def filter_df_by_pn(dataframe: pd.DataFrame, petri_net: PetriNet) -> list[str]:
-    """
-    Filtra um DataFrame de casos para conter apenas as atividades presentes
-    em uma rede de Petri.
-
-    Args:
-        dataframe: DataFrame com os dados dos casos.
-        petri_net: Modelo de rede de Petri.
-    
-    Returns:
-        DataFrame com os casos filtrados.
-    """
-    activities = list()
-    for i in petri_net.places:
-        act_index = i.name.index("_") + 1
-        activity = i.name[act_index:]
-        if activity not in [constants.DEFAULT_ARTIFICIAL_START_ACTIVITY,
-                            constants.DEFAULT_ARTIFICIAL_END_ACTIVITY]:
-            activities.append(activity)
-
-    return dataframe[dataframe[ACTIVITY_NAME].isin(activities)]
-
 def get_conformance_stats(dataframe: pd.DataFrame, petri_net: PetriNet, 
-                          initial_marking: Marking, final_marking: Marking,
-                          is_to_filter_by_pn: bool = False) -> pd.Series:
+                          initial_marking: Marking, final_marking: Marking
+                          ) -> pd.Series:
     """
     Calcula as métricas de conformidade de um modelo e sua rede de Petri.
 
@@ -71,14 +49,10 @@ def get_conformance_stats(dataframe: pd.DataFrame, petri_net: PetriNet,
         petri_net: Modelo de rede de Petri.
         initial_marking: Marcação inicial do modelo.
         final_marking: Marcação final do modelo.
-        is_to_filter_by_pn: Flag para filtrar o DataFrame de casos para conter
-                            apenas as atividades presentes na rede de Petri.
 
     Returns:
         Lista com as métricas de conformidade do modelo.
     """
-    if is_to_filter_by_pn:
-        dataframe = filter_df_by_pn(dataframe, petri_net)
     model_tbr_fitness = fitness_token_based_replay(dataframe, petri_net, 
                                          initial_marking, final_marking)
     model_tbr_precision = precision_token_based_replay(dataframe, petri_net, 
