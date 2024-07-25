@@ -18,8 +18,8 @@ def filter_dict_by_dfg(dic: dict[str, int], dfg: dfg_type):
             if key in get_activities_from_dfg(dfg)}
 
 def show_flowchart(filtered_df: pl.DataFrame, ea_dfg: dfg_type,
-                   sa_dfg: dfg_type):
-    jump_dfg = frequency_dfg(filtered_df, 30)
+                   sa_dfg: dfg_type, count: int=30):
+    jump_dfg = frequency_dfg(filtered_df, count)
     filtered_ea_dfg = filter_dict_by_dfg(ea_dfg, jump_dfg)
     filtered_sa_dfg = filter_dict_by_dfg(sa_dfg, jump_dfg)
     pm4py.view_dfg(jump_dfg, filtered_sa_dfg, filtered_ea_dfg)
