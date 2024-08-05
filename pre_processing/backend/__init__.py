@@ -3,8 +3,11 @@ from .types import dfg_type
 from .charts import show_activities
 from .dfg_discovery import frequency_dfg, partition_dataframe_into_dfgs
 from .conformance import (get_conformance_stats, get_start_end_activities,
-                          get_dataframe, filtering_df)
+                          get_dataframe, filtering_df, show_conformance)
+from .specialization import (remove_events, add_activity_id, 
+                             add_activity_suffix, remove_suffix_if_grouped)
 from .conversor import convert_pn_to_dfg
+from .clustering import group_dataframe
 
 from functools import reduce
 import polars as pl

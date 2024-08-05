@@ -21,7 +21,7 @@ def format_df_to_eventlog(dataframe: pl.DataFrame, columns:list = [],
 	activity_key = kwargs.get("activity_key", ACTIVITY_NAME)
 	timestamp_key = kwargs.get("timestamp_key", TIMESTAMP_NAME)
 	start_timestamp_key = kwargs.get("start_timestamp_key",
-										START_TIMESTAMP_NAME)
+								  	 START_TIMESTAMP_NAME)
 
 	if columns != []: dataframe = dataframe[columns]
 

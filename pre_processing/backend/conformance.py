@@ -1,9 +1,11 @@
+from pm4py.objects.conversion.dfg.variants.to_petri_net_invisibles_no_duplicates import Parameters
 from pm4py import (fitness_token_based_replay, precision_token_based_replay,
                    generalization_tbr)
 from .constants import ACTIVITY_NAME, CASE_CONCEPT_NAME, TIMESTAMP_NAME
 from pm4py.objects.petri_net.obj import PetriNet, Marking
+from pm4py.objects.conversion.dfg import converter
 from .eventlog import format_df_to_eventlog
-from pm4py.util import constants
+from .types import dfg_type
 import pandas as pd
 import polars as pl
 import random
@@ -129,3 +131,19 @@ def get_dataframe(file_path: str) -> pl.DataFrame:
                                  start_timestamp_key="Start",
                                  activity_key='activity',
                                  timestamp_key='End')
+
+def show_conformance(polars_df: pl.DataFrame, dfg: dfg_type,
+                     start_activities: list[str], end_activities: list[str]
+                     ) -> None:
+    """
+    Transform a dataframe into a petri net and show the conformance metrics.
+    """
+    variant = converter.Variants.VERSION_TO_PETRI_NET_INVISIBLES_NO_DUPLICATES
+
+    dfg_pn, dfg_im, dfg_fm = converter.apply(dfg, variant=variant, parameters={
+        Parameters.START_ACTIVITIES: start_activities,
+        Parameters.END_ACTIVITIES: end_activities
+    })
+
+    pandas_df = polars_df.to_pandas()
+    return get_conformance_stats(pandas_df, dfg_pn, dfg_im, dfg_fm)

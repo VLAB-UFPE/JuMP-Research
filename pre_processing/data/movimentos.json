@@ -1,0 +1,6134 @@
+[
+  {
+    "id": "1",
+    "activity": "Magistrado",
+    "level": 1,
+    "parentID": null,
+    "parentActivity": null
+  },
+  {
+    "id": "14",
+    "activity": "Serventuário",
+    "level": 1,
+    "parentID": null,
+    "parentActivity": null
+  },
+  {
+    "id": "15",
+    "activity": "Contador",
+    "level": 2,
+    "parentID": "14",
+    "parentActivity": "Serventuário"
+  },
+  {
+    "id": "18",
+    "activity": "Distribuidor",
+    "level": 2,
+    "parentID": "14",
+    "parentActivity": "Serventuário"
+  },
+  {
+    "id": "48",
+    "activity": "Escrivão/Diretor de Secretaria/Secretário Jurídico",
+    "level": 2,
+    "parentID": "14",
+    "parentActivity": "Serventuário"
+  },
+  {
+    "id": "104",
+    "activity": "Oficial de Justiça",
+    "level": 2,
+    "parentID": "14",
+    "parentActivity": "Serventuário"
+  },
+  {
+    "id": "865",
+    "activity": "Arquivista",
+    "level": 2,
+    "parentID": "14",
+    "parentActivity": "Serventuário"
+  },
+  {
+    "id": "12522",
+    "activity": "Auxiliar da Justiça",
+    "level": 2,
+    "parentID": "14",
+    "parentActivity": "Serventuário"
+  },
+  {
+    "id": "14092",
+    "activity": "Voto",
+    "level": 2,
+    "parentID": "1",
+    "parentActivity": "Magistrado"
+  },
+  {
+    "id": "15185",
+    "activity": "Cooperação Judiciária",
+    "level": 2,
+    "parentID": "1",
+    "parentActivity": "Magistrado"
+  },
+  {
+    "id": "56",
+    "activity": "Requisição de informações",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "63",
+    "activity": "Ordenação de entrega de autos",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "146",
+    "activity": "Não-Homologação de prisão em flagrante",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "979",
+    "activity": "Recebimento",
+    "level": 3,
+    "parentID": "15",
+    "parentActivity": "Contador"
+  },
+  {
+    "id": "980",
+    "activity": "Remessa",
+    "level": 3,
+    "parentID": "15",
+    "parentActivity": "Contador"
+  },
+  {
+    "id": "12029",
+    "activity": "Recebe Teste",
+    "level": 3,
+    "parentID": "865",
+    "parentActivity": "Arquivista"
+  },
+  {
+    "id": "12067",
+    "activity": "Levantamento da Suspensão ou Dessobrestamento",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12068",
+    "activity": "Levantamento da Suspensão ou Dessobrestamento",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "12163",
+    "activity": "Outras Decisões",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12165",
+    "activity": "Requisição de Pagamento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12198",
+    "activity": "Deliberado em Sessão",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12316",
+    "activity": "Notificação Inicial",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12317",
+    "activity": "Notificação inicial com liminar",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12523",
+    "activity": "Conciliador",
+    "level": 3,
+    "parentID": "12522",
+    "parentActivity": "Auxiliar da Justiça"
+  },
+  {
+    "id": "12524",
+    "activity": "Juiz Leigo",
+    "level": 3,
+    "parentID": "12522",
+    "parentActivity": "Auxiliar da Justiça"
+  },
+  {
+    "id": "12525",
+    "activity": "Mediador",
+    "level": 3,
+    "parentID": "12522",
+    "parentActivity": "Auxiliar da Justiça"
+  },
+  {
+    "id": "12655",
+    "activity": "Identificada Possível Dissidência Partidária",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12657",
+    "activity": "Partido Movimentado",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12658",
+    "activity": "Sistema de Candidaturas Fechado",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12659",
+    "activity": "Totalização de Eleições Efetuada",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14091",
+    "activity": "Devolvidos os autos após Pedido de Vista",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14093",
+    "activity": "Voto do Relator",
+    "level": 3,
+    "parentID": "14092",
+    "parentActivity": "Voto"
+  },
+  {
+    "id": "14094",
+    "activity": "Voto Divergente Vencedor",
+    "level": 3,
+    "parentID": "14092",
+    "parentActivity": "Voto"
+  },
+  {
+    "id": "14095",
+    "activity": "Outros Votos",
+    "level": 3,
+    "parentID": "14092",
+    "parentActivity": "Voto"
+  },
+  {
+    "id": "14212",
+    "activity": "Sistema de Candidaturas Reaberto",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14230",
+    "activity": "Apreciação de Questão Interlocutória",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "14730",
+    "activity": "Homologação Parcial do Flagrante",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "14732",
+    "activity": "Conversão de Autos Físicos em Eletrônicos",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14901",
+    "activity": "Perícia",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14902",
+    "activity": "Perícia",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14974",
+    "activity": "Levantamento da Causa Suspensiva ou de Sobrestamento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14999",
+    "activity": "Iniciada Tramitação Direta entre MP e Autoridade Policial",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "15000",
+    "activity": "Finalizada Tramitação Direta entre MP e Autoridade Policial",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "15092",
+    "activity": "Registro de Candidatura",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "15102",
+    "activity": "Sessão Restaurativa",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "15186",
+    "activity": "Cooperação Judiciária",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "15205",
+    "activity": "Manutenção de Acolhimento Institucional/em Família Acolhedora",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15206",
+    "activity": "Desacolhimento Institucional/de Família Acolhedora",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15216",
+    "activity": "Determinação de Citação",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "15223",
+    "activity": "Prejudicado o Pedido",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15225",
+    "activity": "Indicação de Recurso como Representativo de Controvérsia",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "15226",
+    "activity": "Rejeição de Recurso Como Representativo de Controvérsia",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "15227",
+    "activity": "Reconsideração de Recurso como Representativo de Controvérsia",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "15229",
+    "activity": "Indeferimento de Internação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15232",
+    "activity": "Manutenção da Internação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15244",
+    "activity": "Homologação de Acordo Parcial em Execução ou em Cumprimento de Sentença",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "175",
+    "activity": "Prisão em flagrante",
+    "level": 4,
+    "parentID": "378",
+    "parentActivity": "Homologação"
+  },
+  {
+    "id": "244",
+    "activity": "Conversão de Agravo de Instrumento em Agravo Retido",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "266",
+    "activity": "Julgamento em Diligência",
+    "level": 4,
+    "parentID": "7",
+    "parentActivity": "Conversão"
+  },
+  {
+    "id": "269",
+    "activity": "Impedimento ou Suspeição",
+    "level": 4,
+    "parentID": "11",
+    "parentActivity": "Declaração"
+  },
+  {
+    "id": "270",
+    "activity": "Convenção das Partes",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "271",
+    "activity": "Exceção de Incompetência, suspeição ou Impedimento",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "278",
+    "activity": "Recebimento de Embargos à Execução",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "279",
+    "activity": "Incidente de Insanidade Mental",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "355",
+    "activity": "Depositário infiel",
+    "level": 4,
+    "parentID": "113",
+    "parentActivity": "Decretação de Prisão Civil"
+  },
+  {
+    "id": "377",
+    "activity": "Acordo em execução ou em cumprimento de sentença",
+    "level": 4,
+    "parentID": "378",
+    "parentActivity": "Homologação"
+  },
+  {
+    "id": "390",
+    "activity": "Aditamento do libelo",
+    "level": 4,
+    "parentID": "160",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "392",
+    "activity": "Libelo",
+    "level": 4,
+    "parentID": "160",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "799",
+    "activity": "Aditamento do libelo",
+    "level": 4,
+    "parentID": "163",
+    "parentActivity": "Não-Recebimento"
+  },
+  {
+    "id": "803",
+    "activity": "Libelo",
+    "level": 4,
+    "parentID": "163",
+    "parentActivity": "Não-Recebimento"
+  },
+  {
+    "id": "824",
+    "activity": "Definitiva",
+    "level": 4,
+    "parentID": "117",
+    "parentActivity": "Decretação de Internação"
+  },
+  {
+    "id": "900",
+    "activity": "Declaração de competência em conflito",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "947",
+    "activity": "Por pendência de AIREsp",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "960",
+    "activity": "Conflito de Competência",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "971",
+    "activity": "Exceção da Verdade",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "1015",
+    "activity": "Suspensão do Processo",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "10962",
+    "activity": "Regressão de Medida Sócio-Educativa",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "10963",
+    "activity": "Progressão de Medida Sócio-Educativa",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "11002",
+    "activity": "Revogação da Suspensão do Processo",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "11011",
+    "activity": "Homologada a Remissão",
+    "level": 4,
+    "parentID": "378",
+    "parentActivity": "Homologação"
+  },
+  {
+    "id": "11014",
+    "activity": "Convenção das Partes para Cumprimento Voluntário da obrigação",
+    "level": 4,
+    "parentID": "11025",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "11015",
+    "activity": "Exceção de Incompetência, suspeição ou Impedimento",
+    "level": 4,
+    "parentID": "11025",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "11022",
+    "activity": "Julgamento em Diligência",
+    "level": 4,
+    "parentID": "11021",
+    "parentActivity": "Conversão"
+  },
+  {
+    "id": "11024",
+    "activity": "Assistência Judiciária Gratuita",
+    "level": 4,
+    "parentID": "11023",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "12184",
+    "activity": "Suspensão Condicional do Processo",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "12262",
+    "activity": "Emenda a inicial",
+    "level": 4,
+    "parentID": "160",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "12279",
+    "activity": "Fim",
+    "level": 4,
+    "parentID": "12276",
+    "parentActivity": "Cumprimento da pena"
+  },
+  {
+    "id": "12293",
+    "activity": "Ato cumprido pela parte ou interessado (sem atributo)",
+    "level": 4,
+    "parentID": "12292",
+    "parentActivity": "Ato cumprido pela parte ou interessado"
+  },
+  {
+    "id": "12447",
+    "activity": "pagamento",
+    "level": 4,
+    "parentID": "1008",
+    "parentActivity": "Autorização"
+  },
+  {
+    "id": "12449",
+    "activity": "expedição de alvará de levantamento",
+    "level": 4,
+    "parentID": "11010",
+    "parentActivity": "Mero expediente"
+  },
+  {
+    "id": "12478",
+    "activity": "Medida protetiva determinada por autoridade policia",
+    "level": 4,
+    "parentID": "12477",
+    "parentActivity": "Não-Homologação"
+  },
+  {
+    "id": "15366",
+    "activity": "Acolhimento em Parte de Exceção de Pré-Executividade",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12526",
+    "activity": "Conciliação",
+    "level": 4,
+    "parentID": "12525",
+    "parentActivity": "Mediador"
+  },
+  {
+    "id": "12527",
+    "activity": "Mediação",
+    "level": 4,
+    "parentID": "12525",
+    "parentActivity": "Mediador"
+  },
+  {
+    "id": "12528",
+    "activity": "Conciliação",
+    "level": 4,
+    "parentID": "12523",
+    "parentActivity": "Conciliador"
+  },
+  {
+    "id": "12529",
+    "activity": "Decisão",
+    "level": 4,
+    "parentID": "12524",
+    "parentActivity": "Juiz Leigo"
+  },
+  {
+    "id": "12530",
+    "activity": "Conciliação",
+    "level": 4,
+    "parentID": "12524",
+    "parentActivity": "Juiz Leigo"
+  },
+  {
+    "id": "12615",
+    "activity": "Composição Civil",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12656",
+    "activity": "Partido Movimentado",
+    "level": 4,
+    "parentID": "12655",
+    "parentActivity": "Identificada Possível Dissidência Partidária"
+  },
+  {
+    "id": "12665",
+    "activity": "Procedência da Impugnação (Registro Deferido)",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12740",
+    "activity": "de Conciliação",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "14096",
+    "activity": "Audiência Pública",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "14903",
+    "activity": "Determinada/Designada",
+    "level": 4,
+    "parentID": "14901",
+    "parentActivity": "Perícia"
+  },
+  {
+    "id": "14904",
+    "activity": "Agendada",
+    "level": 4,
+    "parentID": "14901",
+    "parentActivity": "Perícia"
+  },
+  {
+    "id": "14905",
+    "activity": "Realizada",
+    "level": 4,
+    "parentID": "14901",
+    "parentActivity": "Perícia"
+  },
+  {
+    "id": "14906",
+    "activity": "Cancelada",
+    "level": 4,
+    "parentID": "14901",
+    "parentActivity": "Perícia"
+  },
+  {
+    "id": "14907",
+    "activity": "Reagendada",
+    "level": 4,
+    "parentID": "14901",
+    "parentActivity": "Perícia"
+  },
+  {
+    "id": "14908",
+    "activity": "Não Realizada",
+    "level": 4,
+    "parentID": "14901",
+    "parentActivity": "Perícia"
+  },
+  {
+    "id": "14961",
+    "activity": "Erro ou Recusa na Comunicação",
+    "level": 4,
+    "parentID": "12281",
+    "parentActivity": "Comunicação eletrônica"
+  },
+  {
+    "id": "14976",
+    "activity": "Suspensão/Sobrestamento por Recurso Especial Repetitivo",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14983",
+    "activity": "Suspensão/Sobrestamento Determinada por Decisão do Presidente do TST - SIRDR",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14984",
+    "activity": "Suspensão/Sobrestamento Determinada por Recurso de Revista Repetitivo",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14997",
+    "activity": "Arquivamento Provisório - Aguardando Captura de Réu Condenado",
+    "level": 4,
+    "parentID": "861",
+    "parentActivity": "Arquivamento"
+  },
+  {
+    "id": "15021",
+    "activity": "Destaque para Julgamento Presencial",
+    "level": 4,
+    "parentID": "12198",
+    "parentActivity": "Deliberado em Sessão"
+  },
+  {
+    "id": "15093",
+    "activity": "Cancelamento de Diplomação",
+    "level": 4,
+    "parentID": "15092",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15094",
+    "activity": "Pendência de Diplomação",
+    "level": 4,
+    "parentID": "15092",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15095",
+    "activity": "Diplomação",
+    "level": 4,
+    "parentID": "15092",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15096",
+    "activity": "Alteração da Declaração de Bens",
+    "level": 4,
+    "parentID": "15092",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15097",
+    "activity": "Alteração do Nome para Urna",
+    "level": 4,
+    "parentID": "15092",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15098",
+    "activity": "Alteração da Foto",
+    "level": 4,
+    "parentID": "15092",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15099",
+    "activity": "Alteração do Número do Candidato",
+    "level": 4,
+    "parentID": "15092",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15100",
+    "activity": "Alteração da Data de Nascimento do Candidato",
+    "level": 4,
+    "parentID": "15092",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15101",
+    "activity": "Conclusão",
+    "level": 4,
+    "parentID": "12289",
+    "parentActivity": "Cancelamento"
+  },
+  {
+    "id": "15157",
+    "activity": "Registro de Falecimento",
+    "level": 4,
+    "parentID": "15092",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15158",
+    "activity": "Registro de Renúncia",
+    "level": 4,
+    "parentID": "15092",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15168",
+    "activity": "De Liquidação, Cumprimento de Sentença ou Execução por Nulidade da Fase de Conhecimento",
+    "level": 4,
+    "parentID": "12289",
+    "parentActivity": "Cancelamento"
+  },
+  {
+    "id": "15188",
+    "activity": "Audiência de Depoimento Especial",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "15204",
+    "activity": "Não Localização do Adolescente",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "15207",
+    "activity": "Aproximação de Pretendente à Adoção",
+    "level": 4,
+    "parentID": "1008",
+    "parentActivity": "Autorização"
+  },
+  {
+    "id": "15208",
+    "activity": "Aproximação de Pretendente à Adoção",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "15209",
+    "activity": "Busca Ativa para Adoção",
+    "level": 4,
+    "parentID": "1008",
+    "parentActivity": "Autorização"
+  },
+  {
+    "id": "15210",
+    "activity": "Busca Ativa para Adoção",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "15211",
+    "activity": "Procedência do Pedido com Aplicação de Medida Socioeducativa",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15212",
+    "activity": "Procedência do Pedido sem Aplicação de Medida Socioeducativa",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15213",
+    "activity": "Procedência em Parte do Pedido com Aplicação de Medida Socioeducativa",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15214",
+    "activity": "Procedência em Parte do Pedido sem Aplicação de Medida Socioeducativa",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15230",
+    "activity": "Provisória",
+    "level": 4,
+    "parentID": "15229",
+    "parentActivity": "Indeferimento de Internação"
+  },
+  {
+    "id": "15231",
+    "activity": "Sanção",
+    "level": 4,
+    "parentID": "15229",
+    "parentActivity": "Indeferimento de Internação"
+  },
+  {
+    "id": "15233",
+    "activity": "Sanção",
+    "level": 4,
+    "parentID": "15232",
+    "parentActivity": "Manutenção da Internação"
+  },
+  {
+    "id": "15234",
+    "activity": "Sem Reinício de Prazo",
+    "level": 4,
+    "parentID": "12425",
+    "parentActivity": "Unificação de Medidas Socioeducativas"
+  },
+  {
+    "id": "15235",
+    "activity": "Com Reinício de Prazo",
+    "level": 4,
+    "parentID": "12425",
+    "parentActivity": "Unificação de Medidas Socioeducativas"
+  },
+  {
+    "id": "15238",
+    "activity": "Homologação de Acordo ou Transação",
+    "level": 4,
+    "parentID": "11025",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "15247",
+    "activity": "Por Expedição de Precatório",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "15248",
+    "activity": "Por Expedição de RPV",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "15252",
+    "activity": "Extinção do processo de execução de medida socioeducativa em razão da perda do caráter pedagógico",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15253",
+    "activity": "Concessão de Remissão a Adolescente com Extinção do Processo",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "15260",
+    "activity": "Homologada a Remissão",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "465",
+    "activity": "Confusão entre autor e réu",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "1045",
+    "activity": "Prescrição, decadência ou perempção",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "10965",
+    "activity": "Remissão a Adolescente Infrator",
+    "level": 5,
+    "parentID": "210",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "12531",
+    "activity": "Frutífera",
+    "level": 5,
+    "parentID": "12528",
+    "parentActivity": "Conciliação"
+  },
+  {
+    "id": "12532",
+    "activity": "Infrutífera",
+    "level": 5,
+    "parentID": "12528",
+    "parentActivity": "Conciliação"
+  },
+  {
+    "id": "12533",
+    "activity": "Frutífera",
+    "level": 5,
+    "parentID": "12530",
+    "parentActivity": "Conciliação"
+  },
+  {
+    "id": "12534",
+    "activity": "Infrutífera",
+    "level": 5,
+    "parentID": "12530",
+    "parentActivity": "Conciliação"
+  },
+  {
+    "id": "12535",
+    "activity": "Frutífera",
+    "level": 5,
+    "parentID": "12526",
+    "parentActivity": "Conciliação"
+  },
+  {
+    "id": "12536",
+    "activity": "Infrutífera",
+    "level": 5,
+    "parentID": "12526",
+    "parentActivity": "Conciliação"
+  },
+  {
+    "id": "12537",
+    "activity": "Não-realizada",
+    "level": 5,
+    "parentID": "12527",
+    "parentActivity": "Mediação"
+  },
+  {
+    "id": "12539",
+    "activity": "Infrutífera",
+    "level": 5,
+    "parentID": "12527",
+    "parentActivity": "Mediação"
+  },
+  {
+    "id": "12540",
+    "activity": "Frutífera",
+    "level": 5,
+    "parentID": "12527",
+    "parentActivity": "Mediação"
+  },
+  {
+    "id": "12610",
+    "activity": "Parcial",
+    "level": 5,
+    "parentID": "12526",
+    "parentActivity": "Conciliação"
+  },
+  {
+    "id": "12611",
+    "activity": "Parcial",
+    "level": 5,
+    "parentID": "12527",
+    "parentActivity": "Mediação"
+  },
+  {
+    "id": "12617",
+    "activity": "Renúncia",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "12704",
+    "activity": "Anulação de Acórdão (Registro Deferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12705",
+    "activity": "Anulação de Acórdão (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12706",
+    "activity": "Anulação de Acórdão (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12707",
+    "activity": "Anulação de Acórdão (Registro Cassado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12708",
+    "activity": "Anulação de Acórdão (Registro Sem Julgamento)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "973",
+    "activity": "Extinção da Punibilidade ou da Pena",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12748",
+    "activity": "de Instrução",
+    "level": 5,
+    "parentID": "12747",
+    "parentActivity": "Inicial"
+  },
+  {
+    "id": "15245",
+    "activity": "Unificação de Medida Socioeducativa",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "15246",
+    "activity": "Não Confirmada",
+    "level": 5,
+    "parentID": "12286",
+    "parentActivity": "Eletrônica"
+  },
+  {
+    "id": "15249",
+    "activity": "Morte do Adolescente/Socioeducando",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "15250",
+    "activity": "Aplicação de Pena Privativa de Liberdade ao Adolescente/Socioeducando",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "15254",
+    "activity": "Justiça Restaurativa",
+    "level": 5,
+    "parentID": "15253",
+    "parentActivity": "Concessão de Remissão a Adolescente com Extinção do Processo"
+  },
+  {
+    "id": "15255",
+    "activity": "Sem Medida Socioeducativa",
+    "level": 5,
+    "parentID": "15253",
+    "parentActivity": "Concessão de Remissão a Adolescente com Extinção do Processo"
+  },
+  {
+    "id": "15256",
+    "activity": "Liberdade Assistida",
+    "level": 5,
+    "parentID": "15253",
+    "parentActivity": "Concessão de Remissão a Adolescente com Extinção do Processo"
+  },
+  {
+    "id": "15257",
+    "activity": "Prestação de Serviços à Comunidade",
+    "level": 5,
+    "parentID": "15253",
+    "parentActivity": "Concessão de Remissão a Adolescente com Extinção do Processo"
+  },
+  {
+    "id": "15258",
+    "activity": "Reparação de Dano",
+    "level": 5,
+    "parentID": "15253",
+    "parentActivity": "Concessão de Remissão a Adolescente com Extinção do Processo"
+  },
+  {
+    "id": "15259",
+    "activity": "Advertência",
+    "level": 5,
+    "parentID": "15253",
+    "parentActivity": "Concessão de Remissão a Adolescente com Extinção do Processo"
+  },
+  {
+    "id": "15261",
+    "activity": "Justiça Restaurativa",
+    "level": 5,
+    "parentID": "15260",
+    "parentActivity": "Homologada a Remissão"
+  },
+  {
+    "id": "15262",
+    "activity": "Sem Medida Socioeducativa",
+    "level": 5,
+    "parentID": "15260",
+    "parentActivity": "Homologada a Remissão"
+  },
+  {
+    "id": "15263",
+    "activity": "Liberdade Assistida",
+    "level": 5,
+    "parentID": "15260",
+    "parentActivity": "Homologada a Remissão"
+  },
+  {
+    "id": "15264",
+    "activity": "Prestação de Serviços à Comunidade",
+    "level": 5,
+    "parentID": "15260",
+    "parentActivity": "Homologada a Remissão"
+  },
+  {
+    "id": "15265",
+    "activity": "Reparação do Dano",
+    "level": 5,
+    "parentID": "15260",
+    "parentActivity": "Homologada a Remissão"
+  },
+  {
+    "id": "15266",
+    "activity": "Advertência",
+    "level": 5,
+    "parentID": "15260",
+    "parentActivity": "Homologada a Remissão"
+  },
+  {
+    "id": "12538",
+    "activity": "Infrutífera",
+    "level": 6,
+    "parentID": "12537",
+    "parentActivity": "Não-realizada"
+  },
+  {
+    "id": "12671",
+    "activity": "Procedência em Parte da Impugnação (Registro Cassado)",
+    "level": 6,
+    "parentID": "12670",
+    "parentActivity": "Procedência em Parte da Impugnação (Registro Cancelado)"
+  },
+  {
+    "id": "15251",
+    "activity": "Condição de Doença Grave do Adolescente/Socioeducando",
+    "level": 6,
+    "parentID": "15250",
+    "parentActivity": "Aplicação de Pena Privativa de Liberdade ao Adolescente/Socioeducando"
+  },
+  {
+    "id": "15237",
+    "activity": "Justificação",
+    "level": 5,
+    "parentID": "12744",
+    "parentActivity": "de Justificação"
+  },
+  {
+    "id": "15322",
+    "activity": "Extinção da Pena - Cumprimento de Sursis",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "193",
+    "activity": "Julgamento",
+    "level": 2,
+    "parentID": "1",
+    "parentActivity": "Magistrado"
+  },
+  {
+    "id": "15023",
+    "activity": "DRAP Deferido",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12278",
+    "activity": "Fim",
+    "level": 4,
+    "parentID": "12276",
+    "parentActivity": "Cumprimento da pena"
+  },
+  {
+    "id": "3",
+    "activity": "Decisão",
+    "level": 2,
+    "parentID": "1",
+    "parentActivity": "Magistrado"
+  },
+  {
+    "id": "7",
+    "activity": "Conversão",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "821",
+    "activity": "Pena / Medida",
+    "level": 4,
+    "parentID": "7",
+    "parentActivity": "Conversão"
+  },
+  {
+    "id": "12140",
+    "activity": "Prisão em Flagrante em Prisão Preventiva",
+    "level": 4,
+    "parentID": "7",
+    "parentActivity": "Conversão"
+  },
+  {
+    "id": "12473",
+    "activity": "agravo em recurso especial",
+    "level": 4,
+    "parentID": "7",
+    "parentActivity": "Conversão"
+  },
+  {
+    "id": "11",
+    "activity": "Declaração",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "941",
+    "activity": "Incompetência",
+    "level": 4,
+    "parentID": "11",
+    "parentActivity": "Declaração"
+  },
+  {
+    "id": "1003",
+    "activity": "Remição",
+    "level": 4,
+    "parentID": "11",
+    "parentActivity": "Declaração"
+  },
+  {
+    "id": "12150",
+    "activity": "Impedimento",
+    "level": 4,
+    "parentID": "11",
+    "parentActivity": "Declaração"
+  },
+  {
+    "id": "12151",
+    "activity": "Suspeição",
+    "level": 4,
+    "parentID": "11",
+    "parentActivity": "Declaração"
+  },
+  {
+    "id": "25",
+    "activity": "Suspensão ou Sobrestamento",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "263",
+    "activity": "Réu revel citado por edital",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "264",
+    "activity": "Suspensão Condicional do Processo",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "265",
+    "activity": "Recurso Extraordinário com repercussão geral",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "268",
+    "activity": "Morte ou perda da capacidade",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "272",
+    "activity": "A depender do julgamento de outra causa, de outro juízo ou declaração incidente",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "275",
+    "activity": "Força maior",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "276",
+    "activity": "Execução frustrada",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "277",
+    "activity": "Convenção das Partes para Satisfação Voluntária da Obrigação em Execução ou Cumprimento de Sentença",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "898",
+    "activity": "Por decisão judicial",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "11792",
+    "activity": "Livramento Condicional",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "11975",
+    "activity": "Recurso Especial repetitivo",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "12098",
+    "activity": "Incidente de Resolução de Demandas Repetitivas",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "12099",
+    "activity": "Por decisão do Presidente do STJ - SIRDR",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "12100",
+    "activity": "Por decisão do Presidente do STF  - SIRDR",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "12259",
+    "activity": "Prescrição intercorrente (art. 921, § 4º, CPC)",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "14968",
+    "activity": "Por Incidente de Assunção de Competência - IAC",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "14969",
+    "activity": "Por Grupo de Representativos",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "14970",
+    "activity": "Por Controvérsia",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "14971",
+    "activity": "Por Ação de Controle Concentrado de Constitucionalidade",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "14972",
+    "activity": "Por Decisão do Presidente do TST - SIRDR",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "15067",
+    "activity": "REsp Sobrestado por Possível Prejudicialidade de RE",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "14973",
+    "activity": "Por Recurso de Revista Repetitivo",
+    "level": 4,
+    "parentID": "25",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "83",
+    "activity": "Cancelamento da distribuição",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "108",
+    "activity": "Decretação de Prisão Criminal",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "352",
+    "activity": "Temporária",
+    "level": 4,
+    "parentID": "108",
+    "parentActivity": "Decretação de Prisão Criminal"
+  },
+  {
+    "id": "353",
+    "activity": "Preventiva",
+    "level": 4,
+    "parentID": "108",
+    "parentActivity": "Decretação de Prisão Criminal"
+  },
+  {
+    "id": "15032",
+    "activity": "Manutenção da Prisão Preventiva",
+    "level": 4,
+    "parentID": "108",
+    "parentActivity": "Decretação de Prisão Criminal"
+  },
+  {
+    "id": "113",
+    "activity": "Decretação de Prisão Civil",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "354",
+    "activity": "Alimentos",
+    "level": 4,
+    "parentID": "113",
+    "parentActivity": "Decretação de Prisão Civil"
+  },
+  {
+    "id": "12467",
+    "activity": "Desistência de pedido",
+    "level": 4,
+    "parentID": "378",
+    "parentActivity": "Homologação"
+  },
+  {
+    "id": "905",
+    "activity": "de estrangeiro para deportação, expulsão ou extradição",
+    "level": 4,
+    "parentID": "113",
+    "parentActivity": "Decretação de Prisão Civil"
+  },
+  {
+    "id": "117",
+    "activity": "Decretação de Internação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "823",
+    "activity": "Provisória",
+    "level": 4,
+    "parentID": "117",
+    "parentActivity": "Decretação de Internação"
+  },
+  {
+    "id": "11393",
+    "activity": "Sanção",
+    "level": 4,
+    "parentID": "117",
+    "parentActivity": "Decretação de Internação"
+  },
+  {
+    "id": "122",
+    "activity": "Desacolhimento de Prisão",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "357",
+    "activity": "Temporária",
+    "level": 4,
+    "parentID": "122",
+    "parentActivity": "Desacolhimento de Prisão"
+  },
+  {
+    "id": "358",
+    "activity": "Preventiva",
+    "level": 4,
+    "parentID": "122",
+    "parentActivity": "Desacolhimento de Prisão"
+  },
+  {
+    "id": "12147",
+    "activity": "Domiciliar",
+    "level": 4,
+    "parentID": "122",
+    "parentActivity": "Desacolhimento de Prisão"
+  },
+  {
+    "id": "133",
+    "activity": "Acolhimento de exceção",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "335",
+    "activity": "de pré-executividade",
+    "level": 4,
+    "parentID": "133",
+    "parentActivity": "Acolhimento de exceção"
+  },
+  {
+    "id": "371",
+    "activity": "Incompetência",
+    "level": 4,
+    "parentID": "133",
+    "parentActivity": "Acolhimento de exceção"
+  },
+  {
+    "id": "940",
+    "activity": "Impedimento ou Suspeição",
+    "level": 4,
+    "parentID": "133",
+    "parentActivity": "Acolhimento de exceção"
+  },
+  {
+    "id": "138",
+    "activity": "Rejeição",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "373",
+    "activity": "Exceção de Impedimento ou Suspeição",
+    "level": 4,
+    "parentID": "138",
+    "parentActivity": "Rejeição"
+  },
+  {
+    "id": "374",
+    "activity": "Exceção de incompetência",
+    "level": 4,
+    "parentID": "138",
+    "parentActivity": "Rejeição"
+  },
+  {
+    "id": "399",
+    "activity": "Aditamento da denúncia",
+    "level": 4,
+    "parentID": "138",
+    "parentActivity": "Rejeição"
+  },
+  {
+    "id": "400",
+    "activity": "Aditamento da queixa",
+    "level": 4,
+    "parentID": "138",
+    "parentActivity": "Rejeição"
+  },
+  {
+    "id": "402",
+    "activity": "Denúncia",
+    "level": 4,
+    "parentID": "138",
+    "parentActivity": "Rejeição"
+  },
+  {
+    "id": "404",
+    "activity": "Queixa",
+    "level": 4,
+    "parentID": "138",
+    "parentActivity": "Rejeição"
+  },
+  {
+    "id": "788",
+    "activity": "Exceção de pré-executividade",
+    "level": 4,
+    "parentID": "138",
+    "parentActivity": "Rejeição"
+  },
+  {
+    "id": "12036",
+    "activity": "Representação por ato infracional",
+    "level": 4,
+    "parentID": "138",
+    "parentActivity": "Rejeição"
+  },
+  {
+    "id": "151",
+    "activity": "Concessão de efeito suspensivo",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "381",
+    "activity": "Recurso",
+    "level": 4,
+    "parentID": "151",
+    "parentActivity": "Concessão de efeito suspensivo"
+  },
+  {
+    "id": "383",
+    "activity": "Impugnação ao cumprimento de sentença",
+    "level": 4,
+    "parentID": "151",
+    "parentActivity": "Concessão de efeito suspensivo"
+  },
+  {
+    "id": "157",
+    "activity": "Revogação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "128",
+    "activity": "Prisão",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "347",
+    "activity": "Antecipação de Tutela",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "348",
+    "activity": "Liminar",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "349",
+    "activity": "Assistência Judiciária Gratuita",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "945",
+    "activity": "Decisão anterior",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "1004",
+    "activity": "Livramento Condicional",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "1016",
+    "activity": "Suspensão Condicional da Pena",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "11426",
+    "activity": "Medida protetiva",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "12145",
+    "activity": "Detração/Remição",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "12479",
+    "activity": "Medida protetiva determinada por autoridade policial",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "12734",
+    "activity": "Revogação do Acordo de Não Persecução Penal",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "12737",
+    "activity": "Revogação da Suspensão Condicional do Processo",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "14683",
+    "activity": "Medida Cautelar Diversa da Prisão",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "15025",
+    "activity": "Revogação da Transação Penal",
+    "level": 4,
+    "parentID": "157",
+    "parentActivity": "Revogação"
+  },
+  {
+    "id": "160",
+    "activity": "Recebimento",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "388",
+    "activity": "Aditamento da denúncia",
+    "level": 4,
+    "parentID": "160",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "389",
+    "activity": "Aditamento da queixa",
+    "level": 4,
+    "parentID": "160",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "391",
+    "activity": "Denúncia",
+    "level": 4,
+    "parentID": "160",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "393",
+    "activity": "Queixa",
+    "level": 4,
+    "parentID": "160",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "1060",
+    "activity": "Recurso",
+    "level": 4,
+    "parentID": "160",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "394",
+    "activity": "Com efeito suspensivo",
+    "level": 5,
+    "parentID": "1060",
+    "parentActivity": "Recurso"
+  },
+  {
+    "id": "1059",
+    "activity": "Sem efeito suspensivo",
+    "level": 5,
+    "parentID": "1060",
+    "parentActivity": "Recurso"
+  },
+  {
+    "id": "12035",
+    "activity": "Representação por ato infracional",
+    "level": 4,
+    "parentID": "160",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "12261",
+    "activity": "Emenda a inicial",
+    "level": 4,
+    "parentID": "160",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "163",
+    "activity": "Não-Recebimento",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "804",
+    "activity": "Recurso",
+    "level": 4,
+    "parentID": "163",
+    "parentActivity": "Não-Recebimento"
+  },
+  {
+    "id": "172",
+    "activity": "Deliberação da partilha",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "190",
+    "activity": "Reforma de decisão anterior",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "206",
+    "activity": "Admissão",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "429",
+    "activity": "Recurso extraordinário",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "430",
+    "activity": "Recurso especial",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "431",
+    "activity": "Recurso de revista",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "12094",
+    "activity": "Incidente de Resolução de demandas repetitivas (art. 981 e 982)",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "12096",
+    "activity": "Incidente de assunção de competência",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "12428",
+    "activity": "Reclamação",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "12429",
+    "activity": "Embargos de Divergência",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "12431",
+    "activity": "Embargos",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "12445",
+    "activity": "Recurso Ordinário",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "12446",
+    "activity": "Afetação tornada sem efeito",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "12454",
+    "activity": "Pedido de Uniformização de Interpretação de Lei",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "15057",
+    "activity": "Admissão de Recurso de Embargos à SDI/TST",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "15058",
+    "activity": "Admissão de Recurso de Embargos à SDC/TST",
+    "level": 4,
+    "parentID": "206",
+    "parentActivity": "Admissão"
+  },
+  {
+    "id": "207",
+    "activity": "Não-Admissão",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "432",
+    "activity": "Recurso Extraordinário",
+    "level": 4,
+    "parentID": "207",
+    "parentActivity": "Não-Admissão"
+  },
+  {
+    "id": "433",
+    "activity": "Recurso Especial",
+    "level": 4,
+    "parentID": "207",
+    "parentActivity": "Não-Admissão"
+  },
+  {
+    "id": "434",
+    "activity": "Recurso de Revista",
+    "level": 4,
+    "parentID": "207",
+    "parentActivity": "Não-Admissão"
+  },
+  {
+    "id": "12095",
+    "activity": "Incidente de resolução de demandas repetitivas",
+    "level": 4,
+    "parentID": "207",
+    "parentActivity": "Não-Admissão"
+  },
+  {
+    "id": "12097",
+    "activity": "Incidente de assunção de competência",
+    "level": 4,
+    "parentID": "207",
+    "parentActivity": "Não-Admissão"
+  },
+  {
+    "id": "12427",
+    "activity": "Agravo em recurso especial",
+    "level": 4,
+    "parentID": "207",
+    "parentActivity": "Não-Admissão"
+  },
+  {
+    "id": "12456",
+    "activity": "Recurso Ordinário",
+    "level": 4,
+    "parentID": "207",
+    "parentActivity": "Não-Admissão"
+  },
+  {
+    "id": "15059",
+    "activity": "Não Admissão de Recurso de Embargos à SDI/TST",
+    "level": 4,
+    "parentID": "207",
+    "parentActivity": "Não-Admissão"
+  },
+  {
+    "id": "15060",
+    "activity": "Não Admissão de Recurso de Embargos à SDC/TST",
+    "level": 4,
+    "parentID": "207",
+    "parentActivity": "Não-Admissão"
+  },
+  {
+    "id": "15183",
+    "activity": "Pedido de Uniformização de Interpretação de Lei",
+    "level": 4,
+    "parentID": "207",
+    "parentActivity": "Não-Admissão"
+  },
+  {
+    "id": "378",
+    "activity": "Homologação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "944",
+    "activity": "Desistência de Recurso",
+    "level": 4,
+    "parentID": "378",
+    "parentActivity": "Homologação"
+  },
+  {
+    "id": "12033",
+    "activity": "Sentença Estrangeira",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12476",
+    "activity": "Medida protetiva determinada por autoridade policial",
+    "level": 4,
+    "parentID": "378",
+    "parentActivity": "Homologação"
+  },
+  {
+    "id": "12733",
+    "activity": "Homologação do Acordo de Não Persecução Penal",
+    "level": 4,
+    "parentID": "378",
+    "parentActivity": "Homologação"
+  },
+  {
+    "id": "15201",
+    "activity": "Homologação do Plano Individual de Atendimento (PIA)",
+    "level": 4,
+    "parentID": "378",
+    "parentActivity": "Homologação"
+  },
+  {
+    "id": "817",
+    "activity": "Concessão",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "332",
+    "activity": "Antecipação de tutela",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "339",
+    "activity": "Liminar",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "787",
+    "activity": "Gratuidade da Justiça",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "818",
+    "activity": "Liberdade provisória",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "819",
+    "activity": "Livramento Condicional",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "988",
+    "activity": "Permissão de saída",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "990",
+    "activity": "Direito de visita",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "1002",
+    "activity": "Progressão de regime",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "1017",
+    "activity": "Suspensão Condicional da Pena",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "11395",
+    "activity": "Remissão ao Adolescente como Forma de Suspensão do Processo",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "12180",
+    "activity": "Prestação de Serviços à Comunidade",
+    "level": 5,
+    "parentID": "11395",
+    "parentActivity": "Remissão ao Adolescente como Forma de Suspensão do Processo"
+  },
+  {
+    "id": "12181",
+    "activity": "Reparação do Dano",
+    "level": 5,
+    "parentID": "11395",
+    "parentActivity": "Remissão ao Adolescente como Forma de Suspensão do Processo"
+  },
+  {
+    "id": "12182",
+    "activity": "Liberdade Assistida",
+    "level": 5,
+    "parentID": "11395",
+    "parentActivity": "Remissão ao Adolescente como Forma de Suspensão do Processo"
+  },
+  {
+    "id": "12183",
+    "activity": "Justiça Restaurativa",
+    "level": 5,
+    "parentID": "11395",
+    "parentActivity": "Remissão ao Adolescente como Forma de Suspensão do Processo"
+  },
+  {
+    "id": "11415",
+    "activity": "Comutação da pena",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "11423",
+    "activity": "Medida protetiva",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "11554",
+    "activity": "Indulto",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "12148",
+    "activity": "Prisão Domiciliar",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "12149",
+    "activity": "Detração/Remição da Pena",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "12308",
+    "activity": "Substituição/Sucessão da Parte",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "14682",
+    "activity": "Medida Cautelar Diversa da Prisão",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "15079",
+    "activity": "Suspensão de Medida Socioeducativa",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "888",
+    "activity": "Concessão em parte",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "889",
+    "activity": "Antecipação de Tutela",
+    "level": 4,
+    "parentID": "888",
+    "parentActivity": "Concessão em parte"
+  },
+  {
+    "id": "892",
+    "activity": "Liminar",
+    "level": 4,
+    "parentID": "888",
+    "parentActivity": "Concessão em parte"
+  },
+  {
+    "id": "11424",
+    "activity": "Medida protetiva",
+    "level": 4,
+    "parentID": "888",
+    "parentActivity": "Concessão em parte"
+  },
+  {
+    "id": "15103",
+    "activity": "Gratuidade da Justiça",
+    "level": 4,
+    "parentID": "888",
+    "parentActivity": "Concessão em parte"
+  },
+  {
+    "id": "961",
+    "activity": "Suscitação de Conflito de Competência",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "968",
+    "activity": "Não-Concessão",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "334",
+    "activity": "Gratuidade da Justiça",
+    "level": 4,
+    "parentID": "968",
+    "parentActivity": "Não-Concessão"
+  },
+  {
+    "id": "785",
+    "activity": "Antecipação de tutela",
+    "level": 4,
+    "parentID": "968",
+    "parentActivity": "Não-Concessão"
+  },
+  {
+    "id": "792",
+    "activity": "Liminar",
+    "level": 4,
+    "parentID": "968",
+    "parentActivity": "Não-Concessão"
+  },
+  {
+    "id": "11425",
+    "activity": "Medida protetiva",
+    "level": 4,
+    "parentID": "968",
+    "parentActivity": "Não-Concessão"
+  },
+  {
+    "id": "12034",
+    "activity": "Exequatur",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12146",
+    "activity": "Liberdade Provisória",
+    "level": 4,
+    "parentID": "968",
+    "parentActivity": "Não-Concessão"
+  },
+  {
+    "id": "1008",
+    "activity": "Autorização",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "1009",
+    "activity": "Trabalho Externo",
+    "level": 4,
+    "parentID": "1008",
+    "parentActivity": "Autorização"
+  },
+  {
+    "id": "1010",
+    "activity": "Saída Temporária",
+    "level": 4,
+    "parentID": "1008",
+    "parentActivity": "Autorização"
+  },
+  {
+    "id": "1011",
+    "activity": "Inclusão em Regime Disciplinar Diferenciado",
+    "level": 4,
+    "parentID": "1008",
+    "parentActivity": "Autorização"
+  },
+  {
+    "id": "1018",
+    "activity": "Transferência para outro Estabelecimento Penal",
+    "level": 4,
+    "parentID": "1008",
+    "parentActivity": "Autorização"
+  },
+  {
+    "id": "1019",
+    "activity": "Transferência da Execução da Pena",
+    "level": 4,
+    "parentID": "1008",
+    "parentActivity": "Autorização"
+  },
+  {
+    "id": "12188",
+    "activity": "Recambiamento de Preso",
+    "level": 4,
+    "parentID": "1008",
+    "parentActivity": "Autorização"
+  },
+  {
+    "id": "1013",
+    "activity": "Determinação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "1014",
+    "activity": "Regressão de Regime",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "1063",
+    "activity": "Determinação de arquivamento de procedimentos investigatórios",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "11382",
+    "activity": "Bloqueio/penhora on line",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12037",
+    "activity": "Quebra de sigilo fiscal",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12038",
+    "activity": "Quebra de sigilo bancário",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12039",
+    "activity": "Quebra de sigilo telemático",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12040",
+    "activity": "Indisponibilidade de bens",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12255",
+    "activity": "Redistribuição por prevenção",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12421",
+    "activity": "Juízo provisório para medidas urgentes",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12422",
+    "activity": "Devolução da carta rogatória ao juízo rogante",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12430",
+    "activity": "Arquivamento",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12448",
+    "activity": "Demonstração de existência de repercussão geral e  manifestação sobre a questão constitucional",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12457",
+    "activity": "Expedição de precatório/rpv",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12472",
+    "activity": "Devolução dos autos à origem",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12474",
+    "activity": "Distribuição",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12646",
+    "activity": "Determinada a Redistribuição",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12648",
+    "activity": "Determinação de Diligência",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "15078",
+    "activity": "Substituição de Medida Socioeducativa",
+    "level": 4,
+    "parentID": "817",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "15080",
+    "activity": "Reavaliação de Medida Socioeducativa",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "15081",
+    "activity": "Busca e Apreensão de Adolescente",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "15085",
+    "activity": "Emenda à Inicial",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "15200",
+    "activity": "Manutenção da Medida Socioeducativa",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "15202",
+    "activity": "Determinação de Alteração ou Complementação do Plano Individual de Atendimento (PIA)",
+    "level": 4,
+    "parentID": "1013",
+    "parentActivity": "Determinação"
+  },
+  {
+    "id": "12092",
+    "activity": "Afetação ao rito dos recursos repetitivos",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12093",
+    "activity": "Desafetação ao rito dos recursos repetitivos",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12141",
+    "activity": "Relaxamento do Flagrante",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12144",
+    "activity": "Unificação e Soma de Penas",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12164",
+    "activity": "Outras Decisões",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12185",
+    "activity": "Decisão Interlocutória de Mérito",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12206",
+    "activity": "Ratificação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12207",
+    "activity": "Liminar",
+    "level": 4,
+    "parentID": "12206",
+    "parentActivity": "Ratificação"
+  },
+  {
+    "id": "12213",
+    "activity": "Decisão Monocrática",
+    "level": 4,
+    "parentID": "12206",
+    "parentActivity": "Ratificação"
+  },
+  {
+    "id": "12208",
+    "activity": "Não-Ratificação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12209",
+    "activity": "Liminar",
+    "level": 4,
+    "parentID": "12208",
+    "parentActivity": "Não-Ratificação"
+  },
+  {
+    "id": "12210",
+    "activity": "Ratificação em Parte",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12211",
+    "activity": "Liminar",
+    "level": 4,
+    "parentID": "12210",
+    "parentActivity": "Ratificação em Parte"
+  },
+  {
+    "id": "12299",
+    "activity": "Prorrogação de cumprimento de pena/medida de segurança",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12300",
+    "activity": "Nomeação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12301",
+    "activity": "Advogado Voluntário",
+    "level": 4,
+    "parentID": "12300",
+    "parentActivity": "Nomeação"
+  },
+  {
+    "id": "12302",
+    "activity": "Curador",
+    "level": 4,
+    "parentID": "12300",
+    "parentActivity": "Nomeação"
+  },
+  {
+    "id": "12303",
+    "activity": "Defensor Dativo",
+    "level": 4,
+    "parentID": "12300",
+    "parentActivity": "Nomeação"
+  },
+  {
+    "id": "12304",
+    "activity": "Intérprete/Tradutor",
+    "level": 4,
+    "parentID": "12300",
+    "parentActivity": "Nomeação"
+  },
+  {
+    "id": "12305",
+    "activity": "Outros auxiliares de justiça",
+    "level": 4,
+    "parentID": "12300",
+    "parentActivity": "Nomeação"
+  },
+  {
+    "id": "12306",
+    "activity": "Perito",
+    "level": 4,
+    "parentID": "12300",
+    "parentActivity": "Nomeação"
+  },
+  {
+    "id": "12307",
+    "activity": "Decretação de revelia",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12318",
+    "activity": "Reconhecimento de prevenção",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12320",
+    "activity": "Denegação de prevenção",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12332",
+    "activity": "Prorrogado prazo de conclusão",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12359",
+    "activity": "Liminar Prejudicada",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12387",
+    "activity": "Decisão de Saneamento e Organização",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12425",
+    "activity": "Unificação de Medidas Socioeducativas",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12432",
+    "activity": "Afetação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12444",
+    "activity": "deferimento",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12455",
+    "activity": "Indeferimento",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12477",
+    "activity": "Não-Homologação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "14778",
+    "activity": "Sentença Estrangeira",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12647",
+    "activity": "Mantida a Distribuição do Processo",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12736",
+    "activity": "Unificação de Processos de Execução",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12765",
+    "activity": "Envio para Juízo de Retratação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12766",
+    "activity": "Por Divergência de Entendimento com o STF",
+    "level": 4,
+    "parentID": "12765",
+    "parentActivity": "Envio para Juízo de Retratação"
+  },
+  {
+    "id": "12767",
+    "activity": "Por Divergência de Entendimento com Tribunal Superior",
+    "level": 4,
+    "parentID": "12765",
+    "parentActivity": "Envio para Juízo de Retratação"
+  },
+  {
+    "id": "12768",
+    "activity": "Manutenção de Acórdão",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "12769",
+    "activity": "Desclassificação de Delito",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "14231",
+    "activity": "Impugnação ao Cumprimento de Sentença",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "14232",
+    "activity": "Acolhimento",
+    "level": 4,
+    "parentID": "14231",
+    "parentActivity": "Impugnação ao Cumprimento de Sentença"
+  },
+  {
+    "id": "14233",
+    "activity": "Não-Acolhimento",
+    "level": 4,
+    "parentID": "14231",
+    "parentActivity": "Impugnação ao Cumprimento de Sentença"
+  },
+  {
+    "id": "14234",
+    "activity": "Acolhimento em Parte",
+    "level": 4,
+    "parentID": "14231",
+    "parentActivity": "Impugnação ao Cumprimento de Sentença"
+  },
+  {
+    "id": "14235",
+    "activity": "Rejeição",
+    "level": 4,
+    "parentID": "14231",
+    "parentActivity": "Impugnação ao Cumprimento de Sentença"
+  },
+  {
+    "id": "14681",
+    "activity": "Descumprimento de Medida Protetiva",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "14702",
+    "activity": "Incidente ou Cautelar - Procedimento Resolvido",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "14733",
+    "activity": "Prorrogação de Medida Protetiva",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "14776",
+    "activity": "Homologação em Parte",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "14777",
+    "activity": "Sentença Estrangeira",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15061",
+    "activity": "Impugnação aos Cálculos de Liquidação",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15062",
+    "activity": "Acolhimento",
+    "level": 4,
+    "parentID": "15061",
+    "parentActivity": "Impugnação aos Cálculos de Liquidação"
+  },
+  {
+    "id": "15063",
+    "activity": "Acolhimento em Parte",
+    "level": 4,
+    "parentID": "15061",
+    "parentActivity": "Impugnação aos Cálculos de Liquidação"
+  },
+  {
+    "id": "15064",
+    "activity": "Não Acolhimento",
+    "level": 4,
+    "parentID": "15061",
+    "parentActivity": "Impugnação aos Cálculos de Liquidação"
+  },
+  {
+    "id": "15065",
+    "activity": "Não Admissão",
+    "level": 4,
+    "parentID": "15061",
+    "parentActivity": "Impugnação aos Cálculos de Liquidação"
+  },
+  {
+    "id": "15082",
+    "activity": "Revogação de Internação de Adolescente",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15083",
+    "activity": "Manutenção de Internação Provisória",
+    "level": 4,
+    "parentID": "15232",
+    "parentActivity": "Manutenção da Internação"
+  },
+  {
+    "id": "15084",
+    "activity": "Desinternação de Adolescente",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15086",
+    "activity": "Deferimento em Parte",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15162",
+    "activity": "Acolhimento de Embargos de Declaração",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15163",
+    "activity": "Acolhimento em Parte de Embargos de Declaração",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15164",
+    "activity": "Não Acolhimento de Embargos de Declaração",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "15203",
+    "activity": "Manutenção de Sentença/Decisão Anterior - Infância e Juventude",
+    "level": 3,
+    "parentID": "3",
+    "parentActivity": "Decisão"
+  },
+  {
+    "id": "11009",
+    "activity": "Despacho",
+    "level": 2,
+    "parentID": "1",
+    "parentActivity": "Magistrado"
+  },
+  {
+    "id": "11010",
+    "activity": "Mero expediente",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "11019",
+    "activity": "Ordenação de entrega de autos",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "11020",
+    "activity": "Requisição de Informações",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "11021",
+    "activity": "Conversão",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "11023",
+    "activity": "Concessão",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "11025",
+    "activity": "Suspensão ou Sobrestamento",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "11012",
+    "activity": "Conflito de Competência",
+    "level": 4,
+    "parentID": "11025",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "11013",
+    "activity": "Convenção das Partes",
+    "level": 4,
+    "parentID": "11025",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "11016",
+    "activity": "Exceção da Verdade",
+    "level": 4,
+    "parentID": "11025",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "11017",
+    "activity": "Incidente de Insanidade Mental",
+    "level": 4,
+    "parentID": "11025",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "11018",
+    "activity": "Recebimento de Embargos à Execução",
+    "level": 4,
+    "parentID": "11025",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "15009",
+    "activity": "Por Impedimento ou Suspeição",
+    "level": 4,
+    "parentID": "11025",
+    "parentActivity": "Suspensão ou Sobrestamento"
+  },
+  {
+    "id": "12310",
+    "activity": "Pauta",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "12311",
+    "activity": "Pedido de inclusão",
+    "level": 4,
+    "parentID": "12310",
+    "parentActivity": "Pauta"
+  },
+  {
+    "id": "12312",
+    "activity": "Retirar pedido de inclusão",
+    "level": 4,
+    "parentID": "12310",
+    "parentActivity": "Pauta"
+  },
+  {
+    "id": "12313",
+    "activity": "Pedido de inclusão em pauta virtual",
+    "level": 4,
+    "parentID": "12310",
+    "parentActivity": "Pauta"
+  },
+  {
+    "id": "12314",
+    "activity": "Retirar pedido de pauta virtual",
+    "level": 4,
+    "parentID": "12310",
+    "parentActivity": "Pauta"
+  },
+  {
+    "id": "12548",
+    "activity": "Expedição de alvará de levantamento",
+    "level": 3,
+    "parentID": "11009",
+    "parentActivity": "Despacho"
+  },
+  {
+    "id": "218",
+    "activity": "Sem Resolução de Mérito",
+    "level": 3,
+    "parentID": "193",
+    "parentActivity": "Julgamento"
+  },
+  {
+    "id": "228",
+    "activity": "Arquivamento",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "472",
+    "activity": "Sumaríssimo (art. 852-B, § 1º/CLT)",
+    "level": 5,
+    "parentID": "228",
+    "parentActivity": "Arquivamento"
+  },
+  {
+    "id": "473",
+    "activity": "Ausência do Reclamante",
+    "level": 5,
+    "parentID": "228",
+    "parentActivity": "Arquivamento"
+  },
+  {
+    "id": "230",
+    "activity": "Recurso prejudicado",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "235",
+    "activity": "Não Conhecimento de recurso",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "236",
+    "activity": "Negação de Seguimento",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "456",
+    "activity": "Extinção",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "454",
+    "activity": "Indeferimento da petição inicial",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "457",
+    "activity": "Paralisação por negligência das partes",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "458",
+    "activity": "Abandono da causa",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "459",
+    "activity": "Ausência de pressupostos processuais",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "460",
+    "activity": "Perempção, litispendência ou coisa julgada",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "461",
+    "activity": "Ausência das condições da ação",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "462",
+    "activity": "Convenção de arbitragem",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "463",
+    "activity": "Desistência",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "464",
+    "activity": "Ação intransmissível",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "11374",
+    "activity": "Devedor não encontrado",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "11375",
+    "activity": "Inexistência de bens penhoráveis",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "11376",
+    "activity": "Ausência do autor à audiência",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "11377",
+    "activity": "Inadmissibilidade do procedimento sumaríssimo",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "11378",
+    "activity": "Incompetência territorial",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "11379",
+    "activity": "Incompetência em razão da pessoa",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "11380",
+    "activity": "Autor falecido e sem habilitação de sucessores",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "11381",
+    "activity": "Ausência de citação de sucessores do réu falecido",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "12256",
+    "activity": "Continência",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "12298",
+    "activity": "Cancelamento de Dívida Ativa",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "12325",
+    "activity": "Perda do objeto",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "14848",
+    "activity": "Ausência de Requerimento Administrativo Prévio",
+    "level": 5,
+    "parentID": "456",
+    "parentActivity": "Extinção"
+  },
+  {
+    "id": "853",
+    "activity": "Conversão de Agravo de Instrumento em Recurso Especial ou Extraordinário",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "10953",
+    "activity": "Pronúncia",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "10961",
+    "activity": "Impronúncia",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "11373",
+    "activity": "Anulação de sentença/acórdão",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "11394",
+    "activity": "Homologada a Remissão",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "11396",
+    "activity": "Concessão de remissão a adolescente com exclusão do processo",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "12319",
+    "activity": "Não conhecimento do pedido",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "12458",
+    "activity": "Não conhecimento do habeas corpus",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "12459",
+    "activity": "Prejudicado",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "12709",
+    "activity": "Registro de Candidatura",
+    "level": 4,
+    "parentID": "218",
+    "parentActivity": "Sem Resolução de Mérito"
+  },
+  {
+    "id": "12710",
+    "activity": "Anulação de Acórdão (Registro Deferido)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12711",
+    "activity": "Anulação de Acórdao (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12712",
+    "activity": "Anulação de Acórdão (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12713",
+    "activity": "Anulação de Acórdão (Registro Cassado)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12714",
+    "activity": "Anulação de Acórdão (Registro Sem Julgamento)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12715",
+    "activity": "Não Conhecimento (Registro Deferido)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12716",
+    "activity": "Não Conhecimento (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12717",
+    "activity": "Não Conhecimento (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12718",
+    "activity": "Não Conhecimento (Registro Cassado)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12719",
+    "activity": "Não Conhecimento (Registro Sem Julgamento)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12720",
+    "activity": "Negação de Seguimento (Registro Deferido)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12721",
+    "activity": "Negação de Seguimento (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12722",
+    "activity": "Negação de Seguimento (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12723",
+    "activity": "Negação de Seguimento (Registro Cassado)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12724",
+    "activity": "Negação de Seguimento (Registro Sem Julgamento)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "14218",
+    "activity": "Anulação de Sentença (Registro Sem Julgamento)",
+    "level": 5,
+    "parentID": "12709",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "385",
+    "activity": "Com Resolução do Mérito",
+    "level": 3,
+    "parentID": "193",
+    "parentActivity": "Julgamento"
+  },
+  {
+    "id": "196",
+    "activity": "Extinção da execução ou do cumprimento da sentença",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "198",
+    "activity": "Acolhimento de Embargos de Declaração",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "200",
+    "activity": "Não-Acolhimento de Embargos de Declaração",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "202",
+    "activity": "Decretação de falência",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "208",
+    "activity": "Não-Decretação de Falência",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "210",
+    "activity": "Concessão",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "442",
+    "activity": "Segurança",
+    "level": 5,
+    "parentID": "210",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "443",
+    "activity": "Habeas corpus",
+    "level": 5,
+    "parentID": "210",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "444",
+    "activity": "Habeas data",
+    "level": 5,
+    "parentID": "210",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "445",
+    "activity": "Mandado de injunção",
+    "level": 5,
+    "parentID": "210",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "12032",
+    "activity": "Exequatur",
+    "level": 5,
+    "parentID": "210",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "12041",
+    "activity": "Recuperação judicial",
+    "level": 5,
+    "parentID": "210",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "12475",
+    "activity": "Habeas Corpus de ofício",
+    "level": 5,
+    "parentID": "210",
+    "parentActivity": "Concessão"
+  },
+  {
+    "id": "212",
+    "activity": "Denegação",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "446",
+    "activity": "Segurança",
+    "level": 5,
+    "parentID": "212",
+    "parentActivity": "Denegação"
+  },
+  {
+    "id": "447",
+    "activity": "Habeas corpus",
+    "level": 5,
+    "parentID": "212",
+    "parentActivity": "Denegação"
+  },
+  {
+    "id": "448",
+    "activity": "Habeas data",
+    "level": 5,
+    "parentID": "212",
+    "parentActivity": "Denegação"
+  },
+  {
+    "id": "449",
+    "activity": "Mandado de injunção",
+    "level": 5,
+    "parentID": "212",
+    "parentActivity": "Denegação"
+  },
+  {
+    "id": "214",
+    "activity": "Concessão em Parte",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "450",
+    "activity": "Segurança",
+    "level": 5,
+    "parentID": "214",
+    "parentActivity": "Concessão em Parte"
+  },
+  {
+    "id": "451",
+    "activity": "Habeas corpus",
+    "level": 5,
+    "parentID": "214",
+    "parentActivity": "Concessão em Parte"
+  },
+  {
+    "id": "452",
+    "activity": "Habeas data",
+    "level": 5,
+    "parentID": "214",
+    "parentActivity": "Concessão em Parte"
+  },
+  {
+    "id": "453",
+    "activity": "Mandado de injunção",
+    "level": 5,
+    "parentID": "214",
+    "parentActivity": "Concessão em Parte"
+  },
+  {
+    "id": "14680",
+    "activity": "Exequatur",
+    "level": 5,
+    "parentID": "214",
+    "parentActivity": "Concessão em Parte"
+  },
+  {
+    "id": "219",
+    "activity": "Procedência",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "220",
+    "activity": "Improcedência",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "221",
+    "activity": "Procedência em Parte",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "237",
+    "activity": "Provimento",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "238",
+    "activity": "Provimento em Parte",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "239",
+    "activity": "Não-Provimento",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "240",
+    "activity": "Conhecimento em Parte e Provimento ou Concessão",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "241",
+    "activity": "Conhecimento em Parte e Provimento em Parte ou Concessão em Parte",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "242",
+    "activity": "Conhecimento em Parte e Não-Provimento ou Denegação",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "455",
+    "activity": "Renúncia ao direito pelo autor",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "466",
+    "activity": "Homologação de Transação",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "471",
+    "activity": "Pronúncia de Decadência ou Prescrição",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "871",
+    "activity": "Acolhimento em parte de Embargos de Declaração",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "884",
+    "activity": "Transação Penal",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "901",
+    "activity": "Negação de seguimento",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "972",
+    "activity": "Provimento (art. 557 do CPC)",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "1042",
+    "activity": "Morte do agente",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "1043",
+    "activity": "Anistia, graça ou indulto",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "1044",
+    "activity": "Retroatividade de lei",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "1046",
+    "activity": "Renúncia do queixoso ou perdão aceito",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "1047",
+    "activity": "Retratação do agente",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "1048",
+    "activity": "Perdão judicial",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "1049",
+    "activity": "Pagamento integral do débito",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "1050",
+    "activity": "Cumprimento da Pena",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "11411",
+    "activity": "Cumprimento da suspensão condicional do processo",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "11801",
+    "activity": "Reparação do dano",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "11878",
+    "activity": "Prescrição",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "11879",
+    "activity": "Decadência ou perempção",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "12028",
+    "activity": "Cumprimento de transação penal",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "12616",
+    "activity": "Composição Civil dos Danos",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "10964",
+    "activity": "Extinção por Cumprimento de Medida Sócio-Educativa",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11401",
+    "activity": "Procedência do pedido e procedência do pedido contraposto",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11402",
+    "activity": "Procedência do pedido e procedência em parte do pedido contraposto",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11403",
+    "activity": "Procedência do pedido e improcedência do pedido contraposto",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11404",
+    "activity": "Procedência em parte do pedido e procedência do pedido contraposto",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11405",
+    "activity": "Procedência em parte do pedido e procedência em parte do pedido contraposto",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11406",
+    "activity": "Procedência em parte do pedido e improcedência do pedido contraposto",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11407",
+    "activity": "Improcedência do pedido e procedência do pedido contraposto",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11408",
+    "activity": "Improcedência do pedido e procedência em parte do pedido contraposto",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11409",
+    "activity": "Improcedência do pedido e improcedência do pedido contraposto",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11795",
+    "activity": "Procedência do Pedido - Reconhecimento pelo réu",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11796",
+    "activity": "Declaração de competência em conflito",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11876",
+    "activity": "Absolvição Sumária do art. 397-CPP",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "11877",
+    "activity": "Absolvição sumária - crimes dolosos contra a vida",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12187",
+    "activity": "Homologação de Decisão de Juiz Leigo",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12252",
+    "activity": "Sentença confirmada",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12253",
+    "activity": "Sentença confirmada em parte",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12254",
+    "activity": "Sentença desconstituída",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12257",
+    "activity": "Definição de tese jurídica em incidentes repetitivos",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12258",
+    "activity": "Emissão de juízo de retratação pelo Órgão Julgador",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12321",
+    "activity": "Parecer",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12322",
+    "activity": "Favorável",
+    "level": 5,
+    "parentID": "12321",
+    "parentActivity": "Parecer"
+  },
+  {
+    "id": "12323",
+    "activity": "Favorável em parte",
+    "level": 5,
+    "parentID": "12321",
+    "parentActivity": "Parecer"
+  },
+  {
+    "id": "12324",
+    "activity": "Desfavorável",
+    "level": 5,
+    "parentID": "12321",
+    "parentActivity": "Parecer"
+  },
+  {
+    "id": "12326",
+    "activity": "Consulta",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12327",
+    "activity": "Respondida",
+    "level": 5,
+    "parentID": "12326",
+    "parentActivity": "Consulta"
+  },
+  {
+    "id": "12328",
+    "activity": "Respondida em parte",
+    "level": 5,
+    "parentID": "12326",
+    "parentActivity": "Consulta"
+  },
+  {
+    "id": "12329",
+    "activity": "Pedido conhecido em parte e procedente",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12330",
+    "activity": "Pedido conhecido em parte e procedente em parte",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12331",
+    "activity": "Pedido conhecido em parte e improcedente",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12433",
+    "activity": "Conjunto Agravo e Recurso Especial",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12434",
+    "activity": "Conhecimento para dar provimento ao Recurso Especial",
+    "level": 5,
+    "parentID": "12433",
+    "parentActivity": "Conjunto Agravo e Recurso Especial"
+  },
+  {
+    "id": "12435",
+    "activity": "Conhecimento para negar provimento ao recurso especial",
+    "level": 5,
+    "parentID": "12433",
+    "parentActivity": "Conjunto Agravo e Recurso Especial"
+  },
+  {
+    "id": "12436",
+    "activity": "Conhecimento para não conhecer do Recurso Especial",
+    "level": 5,
+    "parentID": "12433",
+    "parentActivity": "Conjunto Agravo e Recurso Especial"
+  },
+  {
+    "id": "12437",
+    "activity": "Conhecimento para determinar sua autuação como Recurso Especial",
+    "level": 5,
+    "parentID": "12433",
+    "parentActivity": "Conjunto Agravo e Recurso Especial"
+  },
+  {
+    "id": "12438",
+    "activity": "conhecimento para dar parcial provimento ao recurso especial",
+    "level": 5,
+    "parentID": "12433",
+    "parentActivity": "Conjunto Agravo e Recurso Especial"
+  },
+  {
+    "id": "12439",
+    "activity": "conhecimento para conhecer em parte o recurso especial e dar provimento",
+    "level": 5,
+    "parentID": "12433",
+    "parentActivity": "Conjunto Agravo e Recurso Especial"
+  },
+  {
+    "id": "12440",
+    "activity": "conhecimento para conhecer em parte o recurso especial e negar provimento",
+    "level": 5,
+    "parentID": "12433",
+    "parentActivity": "Conjunto Agravo e Recurso Especial"
+  },
+  {
+    "id": "12441",
+    "activity": "Conhecimento para conhecer o recurso especial",
+    "level": 5,
+    "parentID": "12433",
+    "parentActivity": "Conjunto Agravo e Recurso Especial"
+  },
+  {
+    "id": "12442",
+    "activity": "conhecimento para conhecer em parte o recurso especial",
+    "level": 5,
+    "parentID": "12433",
+    "parentActivity": "Conjunto Agravo e Recurso Especial"
+  },
+  {
+    "id": "12443",
+    "activity": "conhecimento em parte para dar provimento ao recurso especial",
+    "level": 5,
+    "parentID": "12433",
+    "parentActivity": "Conjunto Agravo e Recurso Especial"
+  },
+  {
+    "id": "12450",
+    "activity": "impugnação à execução",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12451",
+    "activity": "Procedência",
+    "level": 5,
+    "parentID": "12450",
+    "parentActivity": "impugnação à execução"
+  },
+  {
+    "id": "12452",
+    "activity": "procedência parcial",
+    "level": 5,
+    "parentID": "12450",
+    "parentActivity": "impugnação à execução"
+  },
+  {
+    "id": "12453",
+    "activity": "improcedência",
+    "level": 5,
+    "parentID": "12450",
+    "parentActivity": "impugnação à execução"
+  },
+  {
+    "id": "12649",
+    "activity": "Homologação do Pedido",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12650",
+    "activity": "Não Homologado o Pedido",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12651",
+    "activity": "Contas Não Prestação",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12652",
+    "activity": "Contas Aprovadas",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12653",
+    "activity": "Contas Desaprovadas",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12654",
+    "activity": "Contas Aprovadas com Ressalvas",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12661",
+    "activity": "Impugnação do Registro de Candidatura",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12735",
+    "activity": "Cumprimento de ANPP",
+    "level": 5,
+    "parentID": "973",
+    "parentActivity": "Extinção da Punibilidade ou da Pena"
+  },
+  {
+    "id": "12666",
+    "activity": "Procedência da Impugnação (Registro Deferido)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12667",
+    "activity": "Procedência da Impugnação (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12668",
+    "activity": "Procedência em Parte da Impugnação (Registro Deferido)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12669",
+    "activity": "Procedência em Parte da Impugnação (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12670",
+    "activity": "Procedência em Parte da Impugnação (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12672",
+    "activity": "Procedência em Parte da Impugnação (Registro Cassado)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12673",
+    "activity": "Não-Procedência da Impugnação (Registro Deferido)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12674",
+    "activity": "Não-Procedência da Impugnação (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12675",
+    "activity": "Não-Procedência da Impugnação (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12676",
+    "activity": "Não-Procedência da Impugnação (Registro Cassado)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12677",
+    "activity": "Procedência da Impugnação (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12792",
+    "activity": "Procedência da Impugnação (Registro Cassado)",
+    "level": 5,
+    "parentID": "12661",
+    "parentActivity": "Impugnação do Registro de Candidatura"
+  },
+  {
+    "id": "12664",
+    "activity": "Movimentar Partido",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12678",
+    "activity": "Registro de Candidatura",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "12660",
+    "activity": "Deferimento do Pedido de Registro de Candidatura",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12662",
+    "activity": "Cassação do Registro de Candidatura",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12663",
+    "activity": "Cancelamento do Pedido de Registro de Candidatura",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12679",
+    "activity": "Provimento (Registro Deferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12680",
+    "activity": "Provimento (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12681",
+    "activity": "Provimento (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12682",
+    "activity": "Provimento (Registro Cassado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12683",
+    "activity": "Provimento (Registro Sem Julgamento)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12684",
+    "activity": "Provimento em Parte (Registro Deferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12685",
+    "activity": "Provimento em Parte (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12686",
+    "activity": "Provimento em Parte (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12687",
+    "activity": "Provimento em Parte (Registro Cassado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12688",
+    "activity": "Provimento em Parte (Registro Sem Julgamento)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12689",
+    "activity": "Não-Provimento (Registro Deferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12690",
+    "activity": "Não-Provimento (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12691",
+    "activity": "Não-Provimento (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12692",
+    "activity": "Não-Provimento (Registro Cassado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12693",
+    "activity": "Não-Provimento (Registro Sem Julgamento)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12694",
+    "activity": "Acolhimento (Registro Deferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12695",
+    "activity": "Acolhimento (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12696",
+    "activity": "Acolhimento (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12697",
+    "activity": "Acolhimento (Registro Cassado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12698",
+    "activity": "Acolhimento (Registro Sem Julgamento)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12699",
+    "activity": "Não-Acolhimento (Registro Deferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12700",
+    "activity": "Não-Acolhimento (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12701",
+    "activity": "Não-Acolhimento (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12702",
+    "activity": "Não-Acolhimento (Registro Cassado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12703",
+    "activity": "Não-Acolhimento (Registro Sem Julgamento)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "14210",
+    "activity": "Indeferimento do Pedido de Registro de Candidatura",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "14211",
+    "activity": "Homologação da Renúncia ao Registro de Candidatura",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "14213",
+    "activity": "Acolhimento em Parte (Registro Deferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "14214",
+    "activity": "Acolhimento em Parte (Registro Indeferido)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "14215",
+    "activity": "Acolhimento em Parte (Registro Cancelado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "14216",
+    "activity": "Acolhimento em Parte (Registro Cassado)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "14217",
+    "activity": "Acolhimento em Parte (Registro sem Julgamento)",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "15024",
+    "activity": "DRAP Indeferido",
+    "level": 5,
+    "parentID": "12678",
+    "parentActivity": "Registro de Candidatura"
+  },
+  {
+    "id": "12738",
+    "activity": "Homologação de Transação Penal",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "14099",
+    "activity": "Homologação de Acordo em Execução ou em Cumprimento de Sentença",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "14219",
+    "activity": "Contas Regularizadas",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "14937",
+    "activity": "Acolhimento da Justificativa do Mesário Faltoso ou Dispensa de Multa",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15022",
+    "activity": "Rejeição de Justificativa do Mesário Faltoso ou Manutenção de Multa",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15026",
+    "activity": "Cancelamento de Inscrição Eleitoral",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15027",
+    "activity": "Manutenção da Inscrição Eleitoral",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15028",
+    "activity": "Acolhimento de Pedido de Inclusão em Lista Especial",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15029",
+    "activity": "Indeferimento de Pedido de Inclusão em Lista Especial",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15030",
+    "activity": "Cancelamento de Filiação Partidária",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15165",
+    "activity": "Resolução Aprovada",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "15166",
+    "activity": "Resolução Desaprovada",
+    "level": 4,
+    "parentID": "385",
+    "parentActivity": "Com Resolução do Mérito"
+  },
+  {
+    "id": "16",
+    "activity": "Cálculo",
+    "level": 3,
+    "parentID": "15",
+    "parentActivity": "Contador"
+  },
+  {
+    "id": "22",
+    "activity": "Baixa Definitiva",
+    "level": 3,
+    "parentID": "18",
+    "parentActivity": "Distribuidor"
+  },
+  {
+    "id": "26",
+    "activity": "Distribuição",
+    "level": 3,
+    "parentID": "18",
+    "parentActivity": "Distribuidor"
+  },
+  {
+    "id": "36",
+    "activity": "Redistribuição",
+    "level": 3,
+    "parentID": "18",
+    "parentActivity": "Distribuidor"
+  },
+  {
+    "id": "51",
+    "activity": "Conclusão",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "60",
+    "activity": "Expedição de documento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "67",
+    "activity": "Juntada",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "85",
+    "activity": "Petição",
+    "level": 4,
+    "parentID": "67",
+    "parentActivity": "Juntada"
+  },
+  {
+    "id": "92",
+    "activity": "Publicação",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "105",
+    "activity": "Devolução",
+    "level": 3,
+    "parentID": "104",
+    "parentActivity": "Oficial de Justiça"
+  },
+  {
+    "id": "106",
+    "activity": "Mandado",
+    "level": 4,
+    "parentID": "105",
+    "parentActivity": "Devolução"
+  },
+  {
+    "id": "112",
+    "activity": "Ofício",
+    "level": 4,
+    "parentID": "105",
+    "parentActivity": "Devolução"
+  },
+  {
+    "id": "115",
+    "activity": "Recebimento",
+    "level": 3,
+    "parentID": "104",
+    "parentActivity": "Oficial de Justiça"
+  },
+  {
+    "id": "118",
+    "activity": "Protocolo de Petição",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "123",
+    "activity": "Remessa",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "132",
+    "activity": "Recebimento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "135",
+    "activity": "Apensamento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "137",
+    "activity": "Desapensamento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "245",
+    "activity": "Provisório",
+    "level": 4,
+    "parentID": "861",
+    "parentActivity": "Arquivamento"
+  },
+  {
+    "id": "246",
+    "activity": "Definitivo",
+    "level": 4,
+    "parentID": "861",
+    "parentActivity": "Arquivamento"
+  },
+  {
+    "id": "311",
+    "activity": "Leilão ou Praça",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "313",
+    "activity": "Sessão do Tribunal do Júri",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "417",
+    "activity": "Inclusão em pauta",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "478",
+    "activity": "Cálculo de Liquidação",
+    "level": 4,
+    "parentID": "16",
+    "parentActivity": "Cálculo"
+  },
+  {
+    "id": "479",
+    "activity": "Custas",
+    "level": 4,
+    "parentID": "16",
+    "parentActivity": "Cálculo"
+  },
+  {
+    "id": "480",
+    "activity": "Atualização de conta",
+    "level": 4,
+    "parentID": "16",
+    "parentActivity": "Cálculo"
+  },
+  {
+    "id": "481",
+    "activity": "Tributos",
+    "level": 4,
+    "parentID": "16",
+    "parentActivity": "Cálculo"
+  },
+  {
+    "id": "488",
+    "activity": "Cancelamento de Distribuição",
+    "level": 3,
+    "parentID": "18",
+    "parentActivity": "Distribuidor"
+  },
+  {
+    "id": "493",
+    "activity": "Entrega em carga/vista",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "581",
+    "activity": "Documento",
+    "level": 4,
+    "parentID": "67",
+    "parentActivity": "Juntada"
+  },
+  {
+    "id": "848",
+    "activity": "Trânsito em julgado",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "849",
+    "activity": "Reativação",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "861",
+    "activity": "Arquivamento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "866",
+    "activity": "Guarda Intermediária",
+    "level": 3,
+    "parentID": "865",
+    "parentActivity": "Arquivista"
+  },
+  {
+    "id": "867",
+    "activity": "Guarda Permanente",
+    "level": 3,
+    "parentID": "865",
+    "parentActivity": "Arquivista"
+  },
+  {
+    "id": "869",
+    "activity": "Entrega definitiva dos autos",
+    "level": 3,
+    "parentID": "865",
+    "parentActivity": "Arquivista"
+  },
+  {
+    "id": "870",
+    "activity": "Autos Eliminados",
+    "level": 3,
+    "parentID": "865",
+    "parentActivity": "Arquivista"
+  },
+  {
+    "id": "873",
+    "activity": "Deliberação em Sessão",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "893",
+    "activity": "Desarquivamento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "897",
+    "activity": "Retirada de pauta",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "928",
+    "activity": "Republicação",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "970",
+    "activity": "Audiência",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "977",
+    "activity": "Recebimento",
+    "level": 3,
+    "parentID": "865",
+    "parentActivity": "Arquivista"
+  },
+  {
+    "id": "978",
+    "activity": "Remessa",
+    "level": 3,
+    "parentID": "865",
+    "parentActivity": "Arquivista"
+  },
+  {
+    "id": "981",
+    "activity": "Recebimento",
+    "level": 3,
+    "parentID": "18",
+    "parentActivity": "Distribuidor"
+  },
+  {
+    "id": "982",
+    "activity": "Remessa",
+    "level": 3,
+    "parentID": "18",
+    "parentActivity": "Distribuidor"
+  },
+  {
+    "id": "985",
+    "activity": "Mandado",
+    "level": 4,
+    "parentID": "115",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "987",
+    "activity": "Ofício",
+    "level": 4,
+    "parentID": "115",
+    "parentActivity": "Recebimento"
+  },
+  {
+    "id": "1051",
+    "activity": "Decurso de Prazo",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "1052",
+    "activity": "Bens Apreendidos",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "1053",
+    "activity": "Destinação",
+    "level": 4,
+    "parentID": "1052",
+    "parentActivity": "Bens Apreendidos"
+  },
+  {
+    "id": "1054",
+    "activity": "Destinação Parcial",
+    "level": 4,
+    "parentID": "1052",
+    "parentActivity": "Bens Apreendidos"
+  },
+  {
+    "id": "1055",
+    "activity": "Cadastramento",
+    "level": 4,
+    "parentID": "1052",
+    "parentActivity": "Bens Apreendidos"
+  },
+  {
+    "id": "1061",
+    "activity": "Disponibilização no Diário da Justiça Eletrônico",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "1062",
+    "activity": "Redisponibilização no Diário da Justiça Eletrônico",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "10966",
+    "activity": "Mudança de Classe Processual",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "11003",
+    "activity": "Início do Cumprimento da Transação Penal",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "11008",
+    "activity": "Desmembramento de Feitos",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "11383",
+    "activity": "Ato ordinatório",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "11384",
+    "activity": "Liquidação iniciada",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "11385",
+    "activity": "Execução/Cumprimento de Sentença Iniciada (o)",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "11983",
+    "activity": "Retificação de movimento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12065",
+    "activity": "Cumprimento de Suspensão ou Sobrestamento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12066",
+    "activity": "Cumprimento de Levantamento da Suspensão",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12101",
+    "activity": "Inclusão do processo para julgamento eletrônico",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12102",
+    "activity": "Adiamento do julgamento (CPC, art. 935)",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12103",
+    "activity": "Pauta",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12104",
+    "activity": "Inclusão em pauta",
+    "level": 4,
+    "parentID": "12103",
+    "parentActivity": "Pauta"
+  },
+  {
+    "id": "12105",
+    "activity": "Inclusão do processo para julgamento eletrônico",
+    "level": 4,
+    "parentID": "12103",
+    "parentActivity": "Pauta"
+  },
+  {
+    "id": "12106",
+    "activity": "Adiamento do julgamento (art. 935 do CPC)",
+    "level": 4,
+    "parentID": "12103",
+    "parentActivity": "Pauta"
+  },
+  {
+    "id": "12107",
+    "activity": "Para análise de repercussão geral",
+    "level": 5,
+    "parentID": "12105",
+    "parentActivity": "Inclusão do processo para julgamento eletrônico"
+  },
+  {
+    "id": "12108",
+    "activity": "Para análise de repercussão geral",
+    "level": 5,
+    "parentID": "12104",
+    "parentActivity": "Inclusão em pauta"
+  },
+  {
+    "id": "12109",
+    "activity": "Para análise da admissão do recurso repetitivo",
+    "level": 5,
+    "parentID": "12105",
+    "parentActivity": "Inclusão do processo para julgamento eletrônico"
+  },
+  {
+    "id": "12110",
+    "activity": "Para análise da admissão do recurso repetitivo",
+    "level": 5,
+    "parentID": "12104",
+    "parentActivity": "Inclusão em pauta"
+  },
+  {
+    "id": "12111",
+    "activity": "Para análise da admissão do IRDR",
+    "level": 5,
+    "parentID": "12104",
+    "parentActivity": "Inclusão em pauta"
+  },
+  {
+    "id": "12112",
+    "activity": "Para análise da admissão do IRDR",
+    "level": 5,
+    "parentID": "12105",
+    "parentActivity": "Inclusão do processo para julgamento eletrônico"
+  },
+  {
+    "id": "12113",
+    "activity": "Para análise da admissão do IAC",
+    "level": 5,
+    "parentID": "12105",
+    "parentActivity": "Inclusão do processo para julgamento eletrônico"
+  },
+  {
+    "id": "12114",
+    "activity": "Para análise da admissão do IAC",
+    "level": 5,
+    "parentID": "12104",
+    "parentActivity": "Inclusão em pauta"
+  },
+  {
+    "id": "12115",
+    "activity": "Para julgamento de mérito",
+    "level": 5,
+    "parentID": "12104",
+    "parentActivity": "Inclusão em pauta"
+  },
+  {
+    "id": "12116",
+    "activity": "Para julgamento de mérito",
+    "level": 5,
+    "parentID": "12105",
+    "parentActivity": "Inclusão do processo para julgamento eletrônico"
+  },
+  {
+    "id": "12142",
+    "activity": "Mudança de Parte",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12143",
+    "activity": "Mudança de Assunto Processual",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12166",
+    "activity": "Precatório",
+    "level": 4,
+    "parentID": "12165",
+    "parentActivity": "Requisição de Pagamento"
+  },
+  {
+    "id": "12167",
+    "activity": "Enviada ao Tribunal",
+    "level": 5,
+    "parentID": "12166",
+    "parentActivity": "Precatório"
+  },
+  {
+    "id": "12168",
+    "activity": "Preparada para Envio",
+    "level": 5,
+    "parentID": "12166",
+    "parentActivity": "Precatório"
+  },
+  {
+    "id": "12169",
+    "activity": "Paga",
+    "level": 5,
+    "parentID": "12166",
+    "parentActivity": "Precatório"
+  },
+  {
+    "id": "12170",
+    "activity": "Cancelada",
+    "level": 5,
+    "parentID": "12166",
+    "parentActivity": "Precatório"
+  },
+  {
+    "id": "12171",
+    "activity": "Retificado",
+    "level": 5,
+    "parentID": "12166",
+    "parentActivity": "Precatório"
+  },
+  {
+    "id": "12172",
+    "activity": "Suspensão",
+    "level": 5,
+    "parentID": "12166",
+    "parentActivity": "Precatório"
+  },
+  {
+    "id": "12173",
+    "activity": "Pequeno Valor",
+    "level": 4,
+    "parentID": "12165",
+    "parentActivity": "Requisição de Pagamento"
+  },
+  {
+    "id": "12174",
+    "activity": "Enviada ao Tribunal",
+    "level": 5,
+    "parentID": "12173",
+    "parentActivity": "Pequeno Valor"
+  },
+  {
+    "id": "12175",
+    "activity": "Preparada para Envio",
+    "level": 5,
+    "parentID": "12173",
+    "parentActivity": "Pequeno Valor"
+  },
+  {
+    "id": "12176",
+    "activity": "Paga",
+    "level": 5,
+    "parentID": "12173",
+    "parentActivity": "Pequeno Valor"
+  },
+  {
+    "id": "12177",
+    "activity": "Cancelada",
+    "level": 5,
+    "parentID": "12173",
+    "parentActivity": "Pequeno Valor"
+  },
+  {
+    "id": "12178",
+    "activity": "Retificada",
+    "level": 5,
+    "parentID": "12173",
+    "parentActivity": "Pequeno Valor"
+  },
+  {
+    "id": "12179",
+    "activity": "Suspensão",
+    "level": 5,
+    "parentID": "12173",
+    "parentActivity": "Pequeno Valor"
+  },
+  {
+    "id": "12186",
+    "activity": "Cancelamento de Distribuição",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12189",
+    "activity": "Entrega de Documento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12199",
+    "activity": "Julgado",
+    "level": 4,
+    "parentID": "12198",
+    "parentActivity": "Deliberado em Sessão"
+  },
+  {
+    "id": "12200",
+    "activity": "Mérito",
+    "level": 5,
+    "parentID": "12199",
+    "parentActivity": "Julgado"
+  },
+  {
+    "id": "12201",
+    "activity": "Liminar",
+    "level": 5,
+    "parentID": "12199",
+    "parentActivity": "Julgado"
+  },
+  {
+    "id": "12202",
+    "activity": "Questão de Ordem",
+    "level": 5,
+    "parentID": "12199",
+    "parentActivity": "Julgado"
+  },
+  {
+    "id": "12203",
+    "activity": "Adiado",
+    "level": 4,
+    "parentID": "12198",
+    "parentActivity": "Deliberado em Sessão"
+  },
+  {
+    "id": "12204",
+    "activity": "Pedido de Vista",
+    "level": 4,
+    "parentID": "12198",
+    "parentActivity": "Deliberado em Sessão"
+  },
+  {
+    "id": "12205",
+    "activity": "Retirado",
+    "level": 4,
+    "parentID": "12198",
+    "parentActivity": "Deliberado em Sessão"
+  },
+  {
+    "id": "12212",
+    "activity": "Prorrogação de PAD",
+    "level": 5,
+    "parentID": "12199",
+    "parentActivity": "Julgado"
+  },
+  {
+    "id": "12214",
+    "activity": "Processo Encaminhado",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12215",
+    "activity": "Processo devolvido à Secretaria",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12260",
+    "activity": "Autos restaurados",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12263",
+    "activity": "Intimação",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12264",
+    "activity": "Eletrônica",
+    "level": 4,
+    "parentID": "12263",
+    "parentActivity": "Intimação"
+  },
+  {
+    "id": "12265",
+    "activity": "Expedida/certificada",
+    "level": 5,
+    "parentID": "12264",
+    "parentActivity": "Eletrônica"
+  },
+  {
+    "id": "12266",
+    "activity": "Confirmada",
+    "level": 5,
+    "parentID": "12264",
+    "parentActivity": "Eletrônica"
+  },
+  {
+    "id": "12267",
+    "activity": "Em audiência",
+    "level": 4,
+    "parentID": "12263",
+    "parentActivity": "Intimação"
+  },
+  {
+    "id": "12268",
+    "activity": "Em Secretaria",
+    "level": 4,
+    "parentID": "12263",
+    "parentActivity": "Intimação"
+  },
+  {
+    "id": "12269",
+    "activity": "Desentranhamento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12270",
+    "activity": "Documento",
+    "level": 4,
+    "parentID": "12269",
+    "parentActivity": "Desentranhamento"
+  },
+  {
+    "id": "12271",
+    "activity": "Petição",
+    "level": 4,
+    "parentID": "12269",
+    "parentActivity": "Desentranhamento"
+  },
+  {
+    "id": "12272",
+    "activity": "Declinada a competência",
+    "level": 4,
+    "parentID": "12198",
+    "parentActivity": "Deliberado em Sessão"
+  },
+  {
+    "id": "12273",
+    "activity": "Convertido em diligência",
+    "level": 4,
+    "parentID": "12198",
+    "parentActivity": "Deliberado em Sessão"
+  },
+  {
+    "id": "12274",
+    "activity": "Sobrestado",
+    "level": 4,
+    "parentID": "12198",
+    "parentActivity": "Deliberado em Sessão"
+  },
+  {
+    "id": "12275",
+    "activity": "Retificado",
+    "level": 4,
+    "parentID": "12198",
+    "parentActivity": "Deliberado em Sessão"
+  },
+  {
+    "id": "12276",
+    "activity": "Cumprimento da pena",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12277",
+    "activity": "Início",
+    "level": 4,
+    "parentID": "12276",
+    "parentActivity": "Cumprimento da pena"
+  },
+  {
+    "id": "12280",
+    "activity": "Interrupção",
+    "level": 4,
+    "parentID": "12276",
+    "parentActivity": "Cumprimento da pena"
+  },
+  {
+    "id": "12281",
+    "activity": "Comunicação eletrônica",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12282",
+    "activity": "Expedida/Certificada",
+    "level": 4,
+    "parentID": "12281",
+    "parentActivity": "Comunicação eletrônica"
+  },
+  {
+    "id": "12283",
+    "activity": "Confirmada",
+    "level": 4,
+    "parentID": "12281",
+    "parentActivity": "Comunicação eletrônica"
+  },
+  {
+    "id": "12284",
+    "activity": "Citação",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12285",
+    "activity": "Em Secretaria/Comparecimento Espontâneo",
+    "level": 4,
+    "parentID": "12284",
+    "parentActivity": "Citação"
+  },
+  {
+    "id": "12286",
+    "activity": "Eletrônica",
+    "level": 4,
+    "parentID": "12284",
+    "parentActivity": "Citação"
+  },
+  {
+    "id": "12287",
+    "activity": "Expedida/Certificada",
+    "level": 5,
+    "parentID": "12286",
+    "parentActivity": "Eletrônica"
+  },
+  {
+    "id": "12288",
+    "activity": "Confirmada",
+    "level": 5,
+    "parentID": "12286",
+    "parentActivity": "Eletrônica"
+  },
+  {
+    "id": "12289",
+    "activity": "Cancelamento",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12290",
+    "activity": "Documento Expedido",
+    "level": 4,
+    "parentID": "12289",
+    "parentActivity": "Cancelamento"
+  },
+  {
+    "id": "12291",
+    "activity": "Movimentação processual",
+    "level": 4,
+    "parentID": "12289",
+    "parentActivity": "Cancelamento"
+  },
+  {
+    "id": "12292",
+    "activity": "Ato cumprido pela parte ou interessado",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12294",
+    "activity": "Comparecimento do Réu/Apenado",
+    "level": 4,
+    "parentID": "12292",
+    "parentActivity": "Ato cumprido pela parte ou interessado"
+  },
+  {
+    "id": "12295",
+    "activity": "Depósito de Bens/Dinheiro",
+    "level": 4,
+    "parentID": "12292",
+    "parentActivity": "Ato cumprido pela parte ou interessado"
+  },
+  {
+    "id": "12296",
+    "activity": "Registro Processual",
+    "level": 3,
+    "parentID": "18",
+    "parentActivity": "Distribuidor"
+  },
+  {
+    "id": "12297",
+    "activity": "Atribuição de competência",
+    "level": 3,
+    "parentID": "18",
+    "parentActivity": "Distribuidor"
+  },
+  {
+    "id": "12309",
+    "activity": "Retirada",
+    "level": 4,
+    "parentID": "12103",
+    "parentActivity": "Pauta"
+  },
+  {
+    "id": "12315",
+    "activity": "Devolvidos os autos",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12606",
+    "activity": "Remessa negociação consumidor.gov.br",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12607",
+    "activity": "Recebimento negociação consumidor.gov.br",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12608",
+    "activity": "Parcial",
+    "level": 5,
+    "parentID": "12528",
+    "parentActivity": "Conciliação"
+  },
+  {
+    "id": "12609",
+    "activity": "Parcial",
+    "level": 5,
+    "parentID": "12530",
+    "parentActivity": "Conciliação"
+  },
+  {
+    "id": "12614",
+    "activity": "Remessa para o CEJUSC ou Centros de Conciliação/Mediação",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12618",
+    "activity": "Remessa CEJUSC",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12619",
+    "activity": "Recebimento do CEJUSC ou Centros de Conciliação/Mediação",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12621",
+    "activity": "Recebimento no CEJUSC ou Centros de Conciliação/Mediação",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12622",
+    "activity": "Remessa para Câmara de Conciliação/Mediação",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12623",
+    "activity": "Recebimento de Câmara de Conciliação/Mediação",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "12624",
+    "activity": "Audiência do art. 334 CPC",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12739",
+    "activity": "Admonitória",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12741",
+    "activity": "de Acolhimento",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12742",
+    "activity": "de Custódia",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12743",
+    "activity": "de Interrogatório",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12744",
+    "activity": "de Justificação",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12745",
+    "activity": "do art. 16 da Lei 11.340",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12746",
+    "activity": "em Execução",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12747",
+    "activity": "Inicial",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12749",
+    "activity": "de Instrução",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12750",
+    "activity": "de Instrução e Julgamento",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12751",
+    "activity": "de Julgamento",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12752",
+    "activity": "de Mediação",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12753",
+    "activity": "Preliminar",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "12759",
+    "activity": "Realização de Procedimento Restaurativo",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14736",
+    "activity": "Inclusão no Juízo 100% Digital",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14737",
+    "activity": "Exclusão do Juízo 100% Digital",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14738",
+    "activity": "Retificação de Classe Processual",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14739",
+    "activity": "Evolução da Classe Processual",
+    "level": 3,
+    "parentID": "48",
+    "parentActivity": "Escrivão/Diretor de Secretaria/Secretário Jurídico"
+  },
+  {
+    "id": "14975",
+    "activity": "Suspensão/Sobrestamento por Recurso Extraordinário com Repercussão Geral",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14977",
+    "activity": "Suspensão/Sobrestamento Determinada por Decisão do Presidente do STF - SIRDR",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14978",
+    "activity": "Suspensão/Sobrestamento Determinada por Decisão do Presidente do STJ - SIRDR",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14979",
+    "activity": "Suspensão/Sobrestamento Determinada por Incidente de Assunção de Competência - IAC",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14980",
+    "activity": "Suspensão/Sobrestamento Determinada por Grupo de Representativos",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14981",
+    "activity": "Suspensão/Sobrestamento Determinada por Controvérsia",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14982",
+    "activity": "Suspensão/Sobrestamento Determinada por Ação de Controle Concentrado de Constitucionalidade  - STF",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14985",
+    "activity": "Suspensão/Sobrestamento por Incidente de Resolução de Demandas Repetitivas",
+    "level": 4,
+    "parentID": "14974",
+    "parentActivity": "Levantamento da Causa Suspensiva ou de Sobrestamento"
+  },
+  {
+    "id": "14998",
+    "activity": "Arquivamento Provisório - Adolescente Aguardando Apreensão",
+    "level": 4,
+    "parentID": "861",
+    "parentActivity": "Arquivamento"
+  },
+  {
+    "id": "15045",
+    "activity": "Audiência de Apresentação de Adolescente",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "15049",
+    "activity": "Audiência Concentrada Protetiva",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  },
+  {
+    "id": "15050",
+    "activity": "Audiência Concentrada Infracional",
+    "level": 4,
+    "parentID": "970",
+    "parentActivity": "Audiência"
+  }
+]
