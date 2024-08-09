@@ -1,0 +1,1 @@
+dfg_type = dict[tuple[str, str], float | int]
