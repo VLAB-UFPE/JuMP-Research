@@ -1,0 +1,8 @@
+{
+  "tbr_percentage_of_fitting_traces":0.0,
+  "tbr_log_fitness":0.7662877119,
+  "tbr_average_trace_fitness":0.7729036856,
+  "tbr_precision":0.9947858967,
+  "tbr_generalization":0.9913874771,
+  "f1_score":0.8699193497
+}
